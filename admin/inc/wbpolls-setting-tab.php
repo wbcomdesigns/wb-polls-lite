@@ -163,46 +163,6 @@ global $wp_roles;
 							</div>
 						</div>
 
-						<!-- Poll Types -->
-						<div class="wbcom-settings-section-wrap">
-							<div class="wbcom-settings-section-options-heading">
-								<label><?php esc_html_e( 'Poll Types', 'buddypress-polls' ); ?></label>
-								<p class="description"><?php esc_html_e( 'Enable or disable different poll option types.', 'buddypress-polls' ); ?></p>
-							</div>
-							<div class="wbcom-settings-section-options">
-								<ul class="wbcom-settings-section-options-flex" style="gap: 20px 40px; flex-wrap: wrap; margin: 0; padding: 0; list-style: none;">
-									<li style="display: flex; align-items: center; gap: 10px;">
-										<label class="wb-switch">
-											<input name='wbpolls_settings[enable_image_poll]' type='checkbox' value='yes' <?php checked( isset( $bpolls_settings['enable_image_poll'] ) ? $bpolls_settings['enable_image_poll'] : 'yes', 'yes' ); ?> />
-											<div class="wb-slider wb-round"></div>
-										</label>
-										<span><?php esc_html_e( 'Image Poll', 'buddypress-polls' ); ?></span>
-									</li>
-									<li style="display: flex; align-items: center; gap: 10px;">
-										<label class="wb-switch">
-											<input name='wbpolls_settings[enable_video_poll]' type='checkbox' value='yes' <?php checked( isset( $bpolls_settings['enable_video_poll'] ) ? $bpolls_settings['enable_video_poll'] : 'yes', 'yes' ); ?> />
-											<div class="wb-slider wb-round"></div>
-										</label>
-										<span><?php esc_html_e( 'Video Poll', 'buddypress-polls' ); ?></span>
-									</li>
-									<li style="display: flex; align-items: center; gap: 10px;">
-										<label class="wb-switch">
-											<input name='wbpolls_settings[enable_audio_poll]' type='checkbox' value='yes' <?php checked( isset( $bpolls_settings['enable_audio_poll'] ) ? $bpolls_settings['enable_audio_poll'] : 'yes', 'yes' ); ?> />
-											<div class="wb-slider wb-round"></div>
-										</label>
-										<span><?php esc_html_e( 'Audio Poll', 'buddypress-polls' ); ?></span>
-									</li>
-									<li style="display: flex; align-items: center; gap: 10px;">
-										<label class="wb-switch">
-											<input name='wbpolls_settings[enable_html_poll]' type='checkbox' value='yes' <?php ( isset( $bpolls_settings['enable_html_poll'] ) ) ? checked( $bpolls_settings['enable_html_poll'], 'yes' ) : ''; ?> />
-											<div class="wb-slider wb-round"></div>
-										</label>
-										<span><?php esc_html_e( 'HTML Poll', 'buddypress-polls' ); ?></span>
-									</li>
-								</ul>
-							</div>
-						</div>
-
 						<!-- Editor Settings -->
 						<div class="wbcom-settings-section-wrap">
 							<div class="wbcom-settings-section-options-heading">
