@@ -1,8 +1,8 @@
 <?php
 /**
- * Faqs support template file.
+ * FAQ tab for WB Polls Lite.
  *
- * @package    Buddypress_Polls
+ * @package WB_Polls_Lite
  */
 
 // Exit if accessed directly.
@@ -15,18 +15,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 <div class="wbcom-faq-adming-setting">
 	<div class="wbcom-admin-title-section">
 		<h3><?php esc_html_e( 'Have some questions?', 'buddypress-polls' ); ?></h3>
-	</div>	
+	</div>
 <div class="wbcom-faq-admin-settings-block">
 <div id="wbcom-faq-settings-section">
 		<div class="wbcom-faq-block-contain">
 			<div class="wbcom-faq-admin-row">
 				<div class="wbcom-faq-section-row">
 					<button class="wbcom-faq-accordion">
-						<?php esc_html_e( 'Does this plugin require BuddyPress?', 'buddypress-polls' ); ?>
+						<?php esc_html_e( 'Does WB Polls Lite require BuddyPress?', 'buddypress-polls' ); ?>
 					</button>
 					<div class="wbcom-faq-panel">
 						<p>
-							<?php esc_html_e( 'No. WB Polls works with or without BuddyPress. Standalone Polls use shortcodes and REST API on any WordPress site. BuddyPress integration adds polls to activity streams and groups.', 'buddypress-polls' ); ?>
+							<?php esc_html_e( 'No. WB Polls Lite works as a standalone WordPress plugin. You can create and manage polls using shortcodes and the REST API on any WordPress site. If BuddyPress is active, polls can also appear in activity streams and groups.', 'buddypress-polls' ); ?>
 						</p>
 					</div>
 				</div>
@@ -34,14 +34,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="wbcom-faq-admin-row">
 				<div class="wbcom-faq-section-row">
 					<button class="wbcom-faq-accordion">
-						<?php esc_html_e( 'What to expect when installing and activating WB Polls?', 'buddypress-polls' ); ?>
+						<?php esc_html_e( 'How do I create a poll?', 'buddypress-polls' ); ?>
 					</button>
 					<div class="wbcom-faq-panel">
 						<p>
-							<?php esc_html_e( 'WB Polls lets you create standalone polls using shortcodes and REST API, or integrate with BuddyPress activity streams and groups.', 'buddypress-polls' ); ?>
-						</p>
-						<p>
-							<?php esc_html_e( 'If BuddyPress is active, a poll icon is added to the post box in activity stream, user profiles and groups. You can also create polls via the Poll Dashboard page.', 'buddypress-polls' ); ?>
+							<?php esc_html_e( 'Go to WB Polls > Add New in the admin dashboard. Enter your question, add answer options, and publish. You can also let users create polls from the frontend using the Poll Dashboard shortcode.', 'buddypress-polls' ); ?>
 						</p>
 					</div>
 				</div>
@@ -49,11 +46,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="wbcom-faq-admin-row">
 				<div class="wbcom-faq-section-row">
 					<button class="wbcom-faq-accordion">
-						<?php esc_html_e( 'What is the use of Multi select polls setting provided under general settings section?', 'buddypress-polls' ); ?>
+						<?php esc_html_e( 'How do I display a poll on a page?', 'buddypress-polls' ); ?>
 					</button>
 					<div class="wbcom-faq-panel">
 						<p>
-							<?php esc_html_e( 'When creating a poll users can set either a single select poll – users can pick just one answer or multiple select poll – users can pick more than one answer.', 'buddypress-polls' ); ?>
+							<?php esc_html_e( 'Use the [wbcom_poll id="123"] shortcode to display a specific poll. Use [wbcom_polls_dashboard] to show the full poll dashboard where users can create and manage their polls.', 'buddypress-polls' ); ?>
 						</p>
 					</div>
 				</div>
@@ -61,14 +58,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="wbcom-faq-admin-row">
 				<div class="wbcom-faq-section-row">
 					<button class="wbcom-faq-accordion">
-						<?php esc_html_e( 'What is the use of Hide results setting provided under general settings section?', 'buddypress-polls' ); ?>
+						<?php esc_html_e( 'Can guests vote without logging in?', 'buddypress-polls' ); ?>
 					</button>
 					<div class="wbcom-faq-panel">
 						<p>
-							<?php esc_html_e( 'With hide results setting enabled users can\'t see the poll results before voting. They can see the results once they vote on the poll.', 'buddypress-polls' ); ?>
-						</p>
-						<p>
-							<?php esc_html_e( 'With hide results setting disabled users can see the poll results before voting.', 'buddypress-polls' ); ?>
+							<?php esc_html_e( 'Yes. Guest voting is supported and uses cookies to prevent duplicate votes. You can enable or disable guest voting from the Polls Settings tab.', 'buddypress-polls' ); ?>
 						</p>
 					</div>
 				</div>
@@ -76,14 +70,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="wbcom-faq-admin-row">
 				<div class="wbcom-faq-section-row">
 					<button class="wbcom-faq-accordion">
-						<?php esc_html_e( 'What is the use of Poll closing date & time setting provided under general settings section?', 'buddypress-polls' ); ?>
+						<?php esc_html_e( 'Can I schedule a poll to close automatically?', 'buddypress-polls' ); ?>
 					</button>
 					<div class="wbcom-faq-panel">
 						<p>
-							<?php esc_html_e( 'With Poll closing date & time setting enabled users can set poll closing date and time.', 'buddypress-polls' ); ?>
-						</p>
-						<p>
-							<?php esc_html_e( 'With Poll closing date & time setting disabled polls will always remain open for voting.', 'buddypress-polls' ); ?>
+							<?php esc_html_e( 'Yes. When creating a poll you can set a closing date and time. Once the deadline passes, the poll stops accepting votes and only shows results.', 'buddypress-polls' ); ?>
 						</p>
 					</div>
 				</div>
@@ -91,11 +82,44 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="wbcom-faq-admin-row">
 				<div class="wbcom-faq-section-row">
 					<button class="wbcom-faq-accordion">
-						<?php esc_html_e( 'How to show poll activity graph in sidebar?', 'buddypress-polls' ); ?>
+						<?php esc_html_e( 'What is a multi-select poll?', 'buddypress-polls' ); ?>
 					</button>
 					<div class="wbcom-faq-panel">
 						<p>
-							<?php esc_html_e( 'Poll activity graph can be listed in sidebar with the help of widget (BuddyPress) Poll Activity Graph widget provided by the plugin.', 'buddypress-polls' ); ?>
+							<?php esc_html_e( 'A multi-select poll lets voters choose more than one option. When creating a poll, toggle the multi-select setting so users can pick multiple answers instead of just one.', 'buddypress-polls' ); ?>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="wbcom-faq-admin-row">
+				<div class="wbcom-faq-section-row">
+					<button class="wbcom-faq-accordion">
+						<?php esc_html_e( 'Can I hide poll results until a user votes?', 'buddypress-polls' ); ?>
+					</button>
+					<div class="wbcom-faq-panel">
+						<p>
+							<?php esc_html_e( 'Yes. Enable the "Hide results" setting in Polls Settings. Users will only see results after they have voted.', 'buddypress-polls' ); ?>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="wbcom-faq-admin-row">
+				<div class="wbcom-faq-section-row">
+					<button class="wbcom-faq-accordion">
+						<?php esc_html_e( 'What is the difference between Lite and Pro?', 'buddypress-polls' ); ?>
+					</button>
+					<div class="wbcom-faq-panel">
+						<p>
+							<?php esc_html_e( 'WB Polls Lite includes text-based polls, frontend dashboard, guest voting, scheduling, multi-select, and BuddyPress integration. The Pro version adds image, video, and audio polls, surveys, CSV export, WP-CLI commands, and priority support.', 'buddypress-polls' ); ?>
+						</p>
+						<p>
+							<?php
+							printf(
+								/* translators: %s: upgrade tab URL */
+								esc_html__( 'See the full comparison on the %s tab.', 'buddypress-polls' ),
+								'<a href="' . esc_url( admin_url( 'admin.php?page=buddypress-polls&tab=upgrade' ) ) . '">' . esc_html__( 'Upgrade to Pro', 'buddypress-polls' ) . '</a>'
+							);
+							?>
 						</p>
 					</div>
 				</div>
