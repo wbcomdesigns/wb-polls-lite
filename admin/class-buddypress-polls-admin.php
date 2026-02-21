@@ -419,12 +419,14 @@ if ( ! class_exists( 'Buddypress_Polls_Admin' ) ) {
 					'general'        => esc_html__( 'Community', 'buddypress-polls' ),
 					'wbpoll_setting' => esc_html__( 'Polls Settings', 'buddypress-polls' ),
 					'support'        => esc_html__( 'FAQ', 'buddypress-polls' ),
+					'upgrade'        => esc_html__( 'Upgrade to Pro', 'buddypress-polls' ),
 				);
 			} else {
 				$bpolls_tabs = array(
 					'welcome'        => esc_html__( 'Welcome', 'buddypress-polls' ),
 					'wbpoll_setting' => esc_html__( 'Polls Settings', 'buddypress-polls' ),
 					'support'        => esc_html__( 'FAQ', 'buddypress-polls' ),
+					'upgrade'        => esc_html__( 'Upgrade to Pro', 'buddypress-polls' ),
 				);
 			}
 

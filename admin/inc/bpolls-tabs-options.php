@@ -40,6 +40,9 @@ function bpolls_include_setting_tabs( $bpolls_tab ) {
 		case 'wbpoll_setting':
 			include 'wbpolls-setting-tab.php';
 			break;
+		case 'upgrade':
+			include 'bpolls-upgrade-tab.php';
+			break;
 		default:
 			include 'bpolls-welcome-page.php';
 			break;
