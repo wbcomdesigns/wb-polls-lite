@@ -1,0 +1,2635 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wbcom Designs – BuddyPress Polls\n"
+"POT-Creation-Date: 2023-12-04 18:21+0530\n"
+"PO-Revision-Date: 2023-12-04 18:23+0530\n"
+"Last-Translator: Varun Dubey <varun@wbcomdesigns.com>\n"
+"Language-Team: Varun Dubey <varun@wbcomdesigns.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: buddypress-polls.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: admin/class-buddypress-polls-admin.php:186
+#: admin/class-buddypress-polls-admin.php:691
+#: admin/class-buddypress-polls-admin.php:1146
+#: admin/class-buddypress-polls-admin.php:1157
+msgid "Click to copy"
+msgstr "Klik om te kopiëren"
+
+#: admin/class-buddypress-polls-admin.php:187
+msgid "Copied to clipboard"
+msgstr "Gekopieerd naar klembord"
+
+#: admin/class-buddypress-polls-admin.php:188
+#: includes/class-wbpoll-helper.php:2411 includes/class-wbpoll-helper.php:2442
+#: includes/class-wbpoll-helper.php:2495 includes/class-wbpoll-helper.php:2578
+#: includes/class-wbpoll-helper.php:2662
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: admin/class-buddypress-polls-admin.php:189
+#: includes/class-wbpoll-helper.php:2403 includes/class-wbpoll-helper.php:2436
+#: includes/class-wbpoll-helper.php:2489 includes/class-wbpoll-helper.php:2572
+#: includes/class-wbpoll-helper.php:2653
+msgid "Move"
+msgstr "Verplaats"
+
+#: admin/class-buddypress-polls-admin.php:190
+msgid "Drag and Drop to reorder answers"
+msgstr "Slepen en neerzetten om de antwoorden opnieuw te ordenen"
+
+#: admin/class-buddypress-polls-admin.php:191
+msgid "Answer"
+msgstr "Antwoord"
+
+#: admin/class-buddypress-polls-admin.php:192
+msgid "Are you sure about deleting this answer?"
+msgstr "Weet je zeker dat je dit antwoord wilt verwijderen?"
+
+#: admin/class-buddypress-polls-admin.php:193
+msgid "Sure"
+msgstr "Veilig"
+
+#: admin/class-buddypress-polls-admin.php:194
+msgid "Oh! No"
+msgstr "Oh! Nee"
+
+#: admin/class-buddypress-polls-admin.php:204
+msgid "Please select"
+msgstr "﻿Selecteer"
+
+#: admin/class-buddypress-polls-admin.php:223
+msgid "WB Plugins"
+msgstr "WB Plugins"
+
+#: admin/class-buddypress-polls-admin.php:224
+msgid "General"
+msgstr "Algemeen"
+
+#: admin/class-buddypress-polls-admin.php:226
+msgid "Buddypress Polls Settings Page"
+msgstr "Buddypress Polls-instellingenpagina"
+
+#: admin/class-buddypress-polls-admin.php:226
+#: admin/class-buddypress-polls-admin.php:260
+#: admin/wbcom/templates/wbcom-plugins-page.php:63
+msgid "BuddyPress Polls"
+msgstr "BuddyPress Polls"
+
+#: admin/class-buddypress-polls-admin.php:230
+#: admin/class-buddypress-polls-admin.php:231
+msgid "Logs"
+msgstr "Logs"
+
+#. translators: %s:
+#: admin/class-buddypress-polls-admin.php:262
+#: admin/wbcom/templates/wbcom-license-page.php:14
+#, php-format
+msgid "Version %s"
+msgstr "Versie %s"
+
+#: admin/class-buddypress-polls-admin.php:271
+#: admin/class-buddypress-polls-admin.php:280
+msgid "Welcome"
+msgstr "Welkom"
+
+#: admin/class-buddypress-polls-admin.php:272
+msgid "Community"
+msgstr "Gemeenschap"
+
+#: admin/class-buddypress-polls-admin.php:273
+#: admin/class-buddypress-polls-admin.php:281
+msgid "WB Polls Settings"
+msgstr "Instellingen voor WB-peilingen"
+
+#: admin/class-buddypress-polls-admin.php:274
+#: admin/class-buddypress-polls-admin.php:282
+msgid "Email Notifications"
+msgstr "E-mail notificaties"
+
+#: admin/class-buddypress-polls-admin.php:275
+#: admin/class-buddypress-polls-admin.php:283
+msgid "Email Notification Text"
+msgstr "E-mailmeldingstekst"
+
+#: admin/class-buddypress-polls-admin.php:276
+#: admin/class-buddypress-polls-admin.php:284
+#: admin/wbcom/wbcom-admin-settings.php:296
+#: admin/wbcom/wbcom-admin-settings.php:297
+#: admin/wbcom/wbcom-admin-settings.php:375 buddypress-polls.php:360
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: admin/class-buddypress-polls-admin.php:288
+msgid "Menu"
+msgstr "Menu"
+
+#: admin/class-buddypress-polls-admin.php:344
+msgid "Site Polls Data"
+msgstr "Gegevens van sitepeilingen"
+
+#: admin/class-buddypress-polls-admin.php:350
+#: admin/class-buddypress-polls-admin.php:467
+#: public/inc/class-bp-poll-activity-graph.php:68
+#: public/inc/class-bp-poll-activity-graph.php:168
+#: public/inc/class-bp-poll-activity-graph.php:281
+msgid "Poll Graph"
+msgstr "Poll-grafiek"
+
+#: admin/class-buddypress-polls-admin.php:433
+msgid "Polls Created"
+msgstr "Opiniepeilingen gemaakt"
+
+#: admin/class-buddypress-polls-admin.php:437
+msgid "Highest Voted Poll"
+msgstr "Hoogst gestemde opiniepeiling"
+
+#: admin/class-buddypress-polls-admin.php:441
+msgid "Recent Poll"
+msgstr "Recente enquete"
+
+#: admin/class-buddypress-polls-admin.php:449
+#: public/inc/class-bp-poll-activity-graph.php:227
+msgid "No polls created."
+msgstr "Geen peilingen gemaakt."
+
+#: admin/class-buddypress-polls-admin.php:580
+#: includes/class-wbpoll-helper.php:118 template/create-poll.php:124
+msgid "Edit Poll"
+msgstr "Bewerk Poll"
+
+#: admin/class-buddypress-polls-admin.php:587
+#: includes/class-wbpoll-helper.php:120
+msgid "View Poll"
+msgstr "Bekijk Poll"
+
+#: admin/class-buddypress-polls-admin.php:626 template/create-poll.php:145
+msgid "Poll Title"
+msgstr "Titel van de enquête"
+
+#: admin/class-buddypress-polls-admin.php:627
+#: admin/class-buddypress-polls-admin.php:1444
+#: admin/wbcom/templates/wbcom-license-page.php:28
+#: admin/wbcom/templates/wbcom-license-page.php:40
+#: edd-license/edd-plugin-license.php:412 template/poll-dashboard.php:58
+#: template/poll-dashboard.php:108 template/poll-dashboard.php:219
+#: template/poll-dashboard.php:268 template/poll-dashboard.php:342
+#: template/poll-dashboard.php:390
+msgid "Status"
+msgstr "Status"
+
+#: admin/class-buddypress-polls-admin.php:628
+#: includes/class-wbpoll-helper.php:2243 template/create-poll.php:667
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: admin/class-buddypress-polls-admin.php:629
+#: includes/class-wbpoll-helper.php:2253 template/create-poll.php:677
+msgid "End Date"
+msgstr "Einddatum"
+
+#: admin/class-buddypress-polls-admin.php:630
+msgid "Created"
+msgstr "Aangemaakt"
+
+#: admin/class-buddypress-polls-admin.php:631
+#: admin/class-buddypress-polls-admin.php:1841
+msgid "Votes"
+msgstr "Stemmen"
+
+#: admin/class-buddypress-polls-admin.php:632
+#: admin/class-buddypress-polls-admin.php:741
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/class-buddypress-polls-admin.php:661
+#: admin/class-buddypress-polls-admin.php:669 template/poll-dashboard.php:115
+#: template/poll-dashboard.php:123 template/poll-dashboard.php:274
+#: template/poll-dashboard.php:282 template/poll-dashboard.php:397
+#: template/poll-dashboard.php:405
+msgid "Yet to Start"
+msgstr "Nog te beginnen"
+
+#: admin/class-buddypress-polls-admin.php:665
+#: admin/class-buddypress-polls-admin.php:672 template/poll-dashboard.php:119
+#: template/poll-dashboard.php:126 template/poll-dashboard.php:278
+#: template/poll-dashboard.php:285 template/poll-dashboard.php:401
+#: template/poll-dashboard.php:408
+msgid "Active"
+msgstr "Actief"
+
+#: admin/class-buddypress-polls-admin.php:675 template/poll-dashboard.php:129
+#: template/poll-dashboard.php:288 template/poll-dashboard.php:411
+msgid "Expired"
+msgstr "Verlopen"
+
+#: admin/class-buddypress-polls-admin.php:721
+msgid "Poll Options"
+msgstr "Enquete opties"
+
+#: admin/class-buddypress-polls-admin.php:731
+msgid "Poll Result"
+msgstr "Enquêteresultaat"
+
+#: admin/class-buddypress-polls-admin.php:751
+msgid "Embed"
+msgstr "Embed"
+
+#: admin/class-buddypress-polls-admin.php:864
+msgid "Poll Answers"
+msgstr "Poll-antwoorden"
+
+#: admin/class-buddypress-polls-admin.php:902
+#: includes/class-wbpoll-helper.php:2238 includes/class-wbpoll-helper.php:2278
+#: includes/class-wbpoll-helper.php:2294 includes/class-wbpoll-helper.php:2305
+#: includes/class-wbpoll-helper.php:2330 includes/class-wbpoll-helper.php:2348
+#: includes/class-wbpoll-helper.php:2537 includes/class-wbpoll-helper.php:2544
+#: includes/class-wbpoll-helper.php:2620 includes/class-wbpoll-helper.php:2627
+#: template/create-poll.php:330 template/create-poll.php:376
+#: template/create-poll.php:428 template/create-poll.php:473
+#: template/create-poll.php:589 template/create-poll.php:617
+#: template/create-poll.php:656 template/create-poll.php:690
+#: template/create-poll.php:707 template/create-poll.php:741
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/class-buddypress-polls-admin.php:903
+#: includes/class-wbpoll-helper.php:2239 includes/class-wbpoll-helper.php:2279
+#: includes/class-wbpoll-helper.php:2295 includes/class-wbpoll-helper.php:2306
+#: includes/class-wbpoll-helper.php:2331 includes/class-wbpoll-helper.php:2349
+#: includes/class-wbpoll-helper.php:2538 includes/class-wbpoll-helper.php:2545
+#: includes/class-wbpoll-helper.php:2621 includes/class-wbpoll-helper.php:2628
+#: template/create-poll.php:338 template/create-poll.php:384
+#: template/create-poll.php:436 template/create-poll.php:481
+#: template/create-poll.php:591 template/create-poll.php:619
+#: template/create-poll.php:660 template/create-poll.php:694
+#: template/create-poll.php:711 template/create-poll.php:752
+msgid "No"
+msgstr "Nee"
+
+#: admin/class-buddypress-polls-admin.php:904
+msgid "No comments"
+msgstr "Geen reacties"
+
+#: admin/class-buddypress-polls-admin.php:969
+#: includes/class-wbpoll-helper.php:1587 template/create-poll.php:220
+#: template/create-poll.php:234 template/create-poll.php:540
+msgid "Text Answer"
+msgstr "Tekst antwoord"
+
+#: admin/class-buddypress-polls-admin.php:975 template/create-poll.php:260
+#: template/create-poll.php:281 template/create-poll.php:558
+msgid "Image Answer"
+msgstr "Afbeelding antwoord"
+
+#: admin/class-buddypress-polls-admin.php:981 template/create-poll.php:315
+#: template/create-poll.php:361 template/create-poll.php:580
+msgid "Video Answer"
+msgstr "Video-antwoord"
+
+#: admin/class-buddypress-polls-admin.php:987 template/create-poll.php:414
+#: template/create-poll.php:459 template/create-poll.php:609
+msgid "Audio Answer"
+msgstr "Audio-antwoord"
+
+#: admin/class-buddypress-polls-admin.php:993 template/create-poll.php:501
+#: template/create-poll.php:516 template/create-poll.php:633
+msgid "HTML Answer"
+msgstr "HTML-antwoord"
+
+#: admin/class-buddypress-polls-admin.php:1122
+msgid "Please save the post once to enter poll answers."
+msgstr ""
+"Sla het bericht één keer op om de antwoorden op de enquête in te voeren."
+
+#: admin/class-buddypress-polls-admin.php:1319
+msgid "Error:: Start or End date any one empty"
+msgstr "Fout:: Begin- of einddatum is leeg"
+
+#. translators: %d:
+#: admin/class-buddypress-polls-admin.php:1348
+#, php-format
+msgid "Answer %d"
+msgstr "Antwoord %d"
+
+#: admin/class-buddypress-polls-admin.php:1440
+msgid "WB Poll Logs"
+msgstr "WB-peilingslogboeken"
+
+#: admin/class-buddypress-polls-admin.php:1445
+#: public/class-buddypress-polls-public.php:504
+msgid "Poll"
+msgstr "Poll"
+
+#: admin/class-buddypress-polls-admin.php:1446
+msgid "User Name"
+msgstr "Gebruikersnaam"
+
+#: admin/class-buddypress-polls-admin.php:1447
+msgid "Date"
+msgstr "Datum"
+
+#: admin/class-buddypress-polls-admin.php:1448
+#: admin/wbcom/templates/wbcom-license-page.php:29
+#: admin/wbcom/templates/wbcom-license-page.php:41
+#: edd-license/edd-plugin-license.php:413 template/poll-dashboard.php:61
+#: template/poll-dashboard.php:137 template/poll-dashboard.php:222
+#: template/poll-dashboard.php:297 template/poll-dashboard.php:345
+#: template/poll-dashboard.php:420
+msgid "Action"
+msgstr "Actie"
+
+#: admin/class-buddypress-polls-admin.php:1461
+msgid "Open"
+msgstr "Open"
+
+#: admin/class-buddypress-polls-admin.php:1461
+#: public/class-buddypress-polls-public.php:250 template/poll-dashboard.php:177
+#: template/poll-dashboard.php:301 template/poll-dashboard.php:427
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: admin/class-buddypress-polls-admin.php:1466
+msgid "Log"
+msgstr "Log"
+
+#: admin/class-buddypress-polls-admin.php:1467
+msgid "close"
+msgstr "sluiten"
+
+#: admin/class-buddypress-polls-admin.php:1472
+msgid "Poll:"
+msgstr "Enquête:"
+
+#: admin/class-buddypress-polls-admin.php:1480
+msgid "Received choices:"
+msgstr "Ontvangen keuzes:"
+
+#: admin/class-buddypress-polls-admin.php:1501
+msgid "IP:"
+msgstr "IP:"
+
+#: admin/class-buddypress-polls-admin.php:1509
+msgid "Date:"
+msgstr "Datum:"
+
+#: admin/class-buddypress-polls-admin.php:1517
+msgid "Browser:"
+msgstr "Browser:"
+
+#: admin/class-buddypress-polls-admin.php:1525
+msgid "User Id:"
+msgstr "Gebruikers-ID:"
+
+#: admin/class-buddypress-polls-admin.php:1533
+msgid "User Login:"
+msgstr "Login Gebruiker:"
+
+#: admin/class-buddypress-polls-admin.php:1541
+msgid "User Name:"
+msgstr "Gebruikersnaam:"
+
+#: admin/class-buddypress-polls-admin.php:1555
+msgid "Logs Not Found"
+msgstr "Logboeken niet gevonden"
+
+#: admin/class-buddypress-polls-admin.php:1574
+#: admin/class-buddypress-polls-admin.php:1590
+#: admin/class-buddypress-polls-admin.php:1606
+#: includes/class-wbpoll-helper.php:2408 template/create-poll.php:183
+msgid "Text"
+msgstr "Tekst"
+
+#. translators: %s:
+#: admin/class-buddypress-polls-admin.php:1664
+#: admin/class-buddypress-polls-admin.php:1939
+#, php-format
+msgid "Total votes: %d"
+msgstr "Totaal aantal stemmen: %d"
+
+#: admin/class-buddypress-polls-admin.php:1670
+#: admin/class-buddypress-polls-admin.php:1692
+#: admin/class-buddypress-polls-admin.php:1881
+#: admin/class-buddypress-polls-admin.php:1894
+#: admin/class-buddypress-polls-admin.php:1926
+#: admin/class-buddypress-polls-admin.php:1952
+msgid "Unknown Answer"
+msgstr "Onbekend antwoord"
+
+#: admin/class-buddypress-polls-admin.php:1777
+#: admin/class-buddypress-polls-admin.php:1814
+msgid "Guest User"
+msgstr "Gastgebruiker"
+
+#: admin/class-buddypress-polls-admin.php:1802
+#: public/class-buddypress-polls-public.php:1369
+msgid "People who voted for this option"
+msgstr "Mensen die voor de optie hebben gestemd"
+
+#: admin/class-buddypress-polls-admin.php:1843
+#: includes/class-wbpoll-helper.php:1609 template/poll-dashboard.php:60
+#: template/poll-dashboard.php:136 template/poll-dashboard.php:221
+#: template/poll-dashboard.php:296 template/poll-dashboard.php:344
+#: template/poll-dashboard.php:419
+msgid "Vote"
+msgstr "Stem"
+
+#: admin/class-buddypress-polls-admin.php:1863
+#: admin/class-buddypress-polls-admin.php:1973
+msgid "No approved vote yet"
+msgstr "Nog geen goedgekeurde stemming"
+
+#: admin/class-buddypress-polls-admin.php:1943
+msgid "Options"
+msgstr "Opties"
+
+#: admin/class-buddypress-polls-admin.php:1944
+msgid "Vote %"
+msgstr "Stem %"
+
+#: admin/class-buddypress-polls-admin.php:1945
+msgid "vote"
+msgstr "stem"
+
+#: admin/inc/bpolls-general-setting-tab.php:26
+msgid "Polls General Settings"
+msgstr "Algemene instellingen voor peilingen"
+
+#: admin/inc/bpolls-general-setting-tab.php:39
+msgid "Hide poll icon on activity page"
+msgstr "Verberg het poll-pictogram op de activiteitenpagina"
+
+#: admin/inc/bpolls-general-setting-tab.php:40
+msgid ""
+"Enable this setting to hide the poll icon on the BuddyPress activity page."
+msgstr ""
+"Schakel deze instelling in om het poll-pictogram op de BuddyPress-"
+"activiteitenpagina te verbergen."
+
+#: admin/inc/bpolls-general-setting-tab.php:52
+msgid "Multi select polls"
+msgstr "Multi-selecte peilingen"
+
+#: admin/inc/bpolls-general-setting-tab.php:53
+msgid "Enabled/Disabled: users can vote for multiple options in each poll."
+msgstr ""
+"Ingeschakeld/uitgeschakeld: gebruikers kunnen in elke peiling op meerdere "
+"opties stemmen."
+
+#: admin/inc/bpolls-general-setting-tab.php:65
+msgid "Allow members to add poll options."
+msgstr "Sta leden toe poll-opties toe te voegen."
+
+#: admin/inc/bpolls-general-setting-tab.php:66
+msgid ""
+"Enabled: It will allow other members to all poll options to a poll which are "
+"created by others like Facebook."
+msgstr ""
+"Ingeschakeld: hiermee kunnen andere leden alle poll-opties gebruiken voor "
+"een poll die door anderen zoals Facebook is gemaakt."
+
+#: admin/inc/bpolls-general-setting-tab.php:79
+msgid "Hide results"
+msgstr "Resultaten verbergen"
+
+#: admin/inc/bpolls-general-setting-tab.php:80
+msgid "Enabled: results are hidden from users who have not voted yet."
+msgstr ""
+"Ingeschakeld: resultaten zijn verborgen voor gebruikers die nog niet hebben "
+"gestemd."
+
+#: admin/inc/bpolls-general-setting-tab.php:80
+msgid "/ Disabled: users can see poll results before voting."
+msgstr ""
+"/ Uitgeschakeld: gebruikers kunnen de resultaten van de enquête bekijken "
+"voordat ze stemmen."
+
+#: admin/inc/bpolls-general-setting-tab.php:93
+#: public/class-buddypress-polls-public.php:433
+msgid "Poll closing date & time"
+msgstr "Sluitingsdatum en -tijd van de enquête"
+
+#: admin/inc/bpolls-general-setting-tab.php:94
+msgid "Enabled: users can set poll closing date and time."
+msgstr ""
+"Ingeschakeld: gebruikers kunnen de sluitingsdatum en -tijd van de enquête "
+"instellen."
+
+#: admin/inc/bpolls-general-setting-tab.php:94
+msgid "/ Disabled: polls will always remain open for voting"
+msgstr "/ Uitgeschakeld: opiniepeilingen blijven altijd open voor stemming"
+
+#: admin/inc/bpolls-general-setting-tab.php:107
+msgid "Enable image attachment"
+msgstr "Schakel afbeeldingsbijlage in"
+
+#: admin/inc/bpolls-general-setting-tab.php:108
+msgid "Enabled: users can set a image attachment with the poll."
+msgstr ""
+"Ingeschakeld: gebruikers kunnen een afbeeldingsbijlage bij de poll instellen."
+
+#: admin/inc/bpolls-general-setting-tab.php:121
+msgid "Poll Options Limit"
+msgstr "Limiet enqueteopties"
+
+#: admin/inc/bpolls-general-setting-tab.php:122
+msgid "Set the limit of the poll options."
+msgstr "Stel de limiet van de poll-opties in."
+
+#: admin/inc/bpolls-general-setting-tab.php:131
+msgid "Enable Poll Result"
+msgstr "Enqueteresultaat inschakelen"
+
+#: admin/inc/bpolls-general-setting-tab.php:132
+msgid "Enabled: Allow users to view poll results."
+msgstr "Ingeschakeld: gebruikers toestaan enquêteresultaten te bekijken."
+
+#: admin/inc/bpolls-general-setting-tab.php:144
+msgid "Enable Revoting"
+msgstr "Intrekking inschakelen"
+
+#: admin/inc/bpolls-general-setting-tab.php:145
+msgid "Enabled: Allow users to change their votes after voting."
+msgstr "Ingeschakeld: sta gebruikers toe hun stem te wijzigen na het stemmen."
+
+#: admin/inc/bpolls-general-setting-tab.php:157
+msgid "Show Voters List"
+msgstr "Toon kiezerslijst"
+
+#: admin/inc/bpolls-general-setting-tab.php:158
+msgid "Enabled: Allow users to view list of voters."
+msgstr "Ingeschakeld: gebruikers toestaan een lijst met kiezers te bekijken."
+
+#: admin/inc/bpolls-general-setting-tab.php:170
+msgid "Max Voters Number"
+msgstr "Maximaal aantal kiezers"
+
+#: admin/inc/bpolls-general-setting-tab.php:171
+msgid "Max voters to show."
+msgstr "Maximaal aantal kiezers om te laten zien."
+
+#: admin/inc/bpolls-general-setting-tab.php:180
+msgid "Color Scheme"
+msgstr "Kleur Schema"
+
+#: admin/inc/bpolls-general-setting-tab.php:181
+msgid "Allow users to set color scheme for progress bar and submit button."
+msgstr ""
+"Sta gebruikers toe het kleurenschema in te stellen voor de voortgangsbalk en "
+"de verzendknop."
+
+#: admin/inc/bpolls-general-setting-tab.php:192
+msgid "Enable after poll message"
+msgstr "Inschakelen na poll-bericht"
+
+#: admin/inc/bpolls-general-setting-tab.php:193
+msgid "Enabled: users can add thank you message with the poll."
+msgstr ""
+"Ingeschakeld: gebruikers kunnen een bedankbericht toevoegen aan de poll."
+
+#: admin/inc/bpolls-general-setting-tab.php:205
+msgid "Limit Poll Activities"
+msgstr "Beperk enquête-activiteiten"
+
+#: admin/inc/bpolls-general-setting-tab.php:207
+msgid "Limit by user role or member type to publish poll type activities"
+msgstr ""
+"Beperken op gebruikersrol of lidtype om activiteiten van het peilingstype te "
+"publiceren"
+
+#: admin/inc/bpolls-general-setting-tab.php:212
+msgid "No Limit"
+msgstr "Geen limiet"
+
+#: admin/inc/bpolls-general-setting-tab.php:215
+msgid "Limit by User Role"
+msgstr "Beperken op gebruikersrol"
+
+#: admin/inc/bpolls-general-setting-tab.php:218
+msgid "Limit by Member Type"
+msgstr "Beperken op lidmaatschapstype"
+
+#: admin/inc/bpolls-general-setting-tab.php:229
+msgid "Select User Roles"
+msgstr "Kies gebruikersrollen"
+
+#: admin/inc/bpolls-general-setting-tab.php:231
+msgid "Select user role which are allowed to publish poll type activities."
+msgstr ""
+"Selecteer een gebruikersrol die activiteiten van het peilingstype mag "
+"publiceren."
+
+#: admin/inc/bpolls-general-setting-tab.php:256
+msgid "Select Member Type"
+msgstr "Selecteer Lidtype"
+
+#: admin/inc/bpolls-general-setting-tab.php:258
+msgid "Select member type which are allowed to publish poll type activities."
+msgstr ""
+"Selecteer het type lid dat activiteiten van het peilingstype mag publiceren."
+
+#: admin/inc/bpolls-support-setting-tab.php:17
+msgid "Have some questions?"
+msgstr "Heb je vragen?"
+
+#: admin/inc/bpolls-support-setting-tab.php:25
+msgid "Does This plugin requires BuddyPress?"
+msgstr "Heeft deze plug-in BuddyPress nodig?"
+
+#: admin/inc/bpolls-support-setting-tab.php:29
+msgid "Yes, It needs you to have BuddyPress installed and activated."
+msgstr "Ja, hiervoor moet BuddyPress geïnstalleerd en geactiveerd zijn."
+
+#: admin/inc/bpolls-support-setting-tab.php:37
+msgid "What to expect when installing and activating BuddyPress Polls?"
+msgstr ""
+"Wat kunt u verwachten bij het installeren en activeren van BuddyPress Polls?"
+
+#: admin/inc/bpolls-support-setting-tab.php:41
+msgid ""
+"After activating plugin a poll icon is added to the post box in activity "
+"stream, user profiles and even in groups."
+msgstr ""
+"Na het activeren van de plug-in wordt een poll-pictogram toegevoegd aan de "
+"postbus in de activiteitenstroom, gebruikersprofielen en zelfs in groepen."
+
+#: admin/inc/bpolls-support-setting-tab.php:44
+msgid ""
+"Post a question for others to vote. BuddyPress Polls plugin allows you and "
+"your community to create polls in posts. The polls can be placed in the main "
+"activity stream, in users’ profiles and even in groups."
+msgstr ""
+"Plaats een vraag zodat anderen kunnen stemmen. Met de BuddyPress Polls-plug-"
+"in kunnen jij en je community polls in berichten maken. De peilingen kunnen "
+"in de hoofdactiviteitenstroom, in gebruikersprofielen en zelfs in groepen "
+"worden geplaatst."
+
+#: admin/inc/bpolls-support-setting-tab.php:52
+msgid ""
+"What is the use of Multi select polls setting provided under general "
+"settings section?"
+msgstr ""
+"Wat is het nut van de instelling Multi-select polls in het gedeelte Algemene "
+"instellingen?"
+
+#: admin/inc/bpolls-support-setting-tab.php:56
+msgid ""
+"When creating a poll users can set either a single select poll – users can "
+"pick just one answer or multiple select poll – users can pick more than one "
+"answer."
+msgstr ""
+"Bij het maken van een enquête kunnen gebruikers een enkele selectiepoll "
+"instellen – gebruikers kunnen slechts één antwoord kiezen of meerdere "
+"selectiepolls – gebruikers kunnen meer dan één antwoord kiezen."
+
+#: admin/inc/bpolls-support-setting-tab.php:64
+msgid ""
+"What is the use of Hide results setting provided under general settings "
+"section?"
+msgstr ""
+"Wat is het nut van de instelling Resultaten verbergen in het gedeelte "
+"Algemene instellingen?"
+
+#: admin/inc/bpolls-support-setting-tab.php:68
+msgid ""
+"With hide results setting enabled users can't see the poll results before "
+"voting. They can see the results once they vote on the poll."
+msgstr ""
+"Als de instelling voor het verbergen van resultaten is ingeschakeld, kunnen "
+"gebruikers de resultaten van de enquête niet zien voordat ze stemmen. Ze "
+"kunnen de resultaten zien zodra ze op de peiling hebben gestemd."
+
+#: admin/inc/bpolls-support-setting-tab.php:71
+msgid ""
+"With hide results setting disabled users can see the poll results before "
+"voting."
+msgstr ""
+"Als de instelling voor het verbergen van resultaten is uitgeschakeld, kunnen "
+"gebruikers de resultaten van de enquête zien voordat ze stemmen."
+
+#: admin/inc/bpolls-support-setting-tab.php:79
+msgid ""
+"What is the use of Poll closing date & time setting provided under general "
+"settings section?"
+msgstr ""
+"Wat is het nut van de instelling voor de sluitingsdatum en -tijd van de "
+"peiling in het gedeelte Algemene instellingen?"
+
+#: admin/inc/bpolls-support-setting-tab.php:83
+msgid ""
+"With Poll closing date & time setting enabled users can set poll closing "
+"date and time."
+msgstr ""
+"Als de instelling voor de sluitingsdatum en -tijd van de enquête is "
+"ingeschakeld, kunnen gebruikers de sluitingsdatum en -tijd van de enquête "
+"instellen."
+
+#: admin/inc/bpolls-support-setting-tab.php:86
+msgid ""
+"With Poll closing date & time setting disabled polls will always remain open "
+"for voting."
+msgstr ""
+"Als de instelling voor de sluitingsdatum en -tijd van de peiling is "
+"uitgeschakeld, blijven peilingen altijd open voor stemming."
+
+#: admin/inc/bpolls-support-setting-tab.php:94
+msgid "How to show poll activity graph in sidebar?"
+msgstr "Hoe kan ik de enquête-activiteitsgrafiek in de zijbalk weergeven?"
+
+#: admin/inc/bpolls-support-setting-tab.php:98
+msgid ""
+"Poll activity graph can be listed in sidebar with the help of widget "
+"(BuddyPress) Poll Activity Graph widget provided by the plugin."
+msgstr ""
+"De enquête-activiteitsgrafiek kan in de zijbalk worden weergegeven met "
+"behulp van de widget (BuddyPress) Poll-activiteitsgrafiekwidget die door de "
+"plug-in wordt geleverd."
+
+#: admin/inc/bpolls-welcome-page.php:19
+msgid ""
+"Use BuddyPress Polls plugin to create polls inside the activity, let your "
+"user response to your polls. Members can create polls inside activities, "
+"easily votes on them."
+msgstr ""
+"Gebruik de BuddyPress Polls-plug-in om peilingen binnen de activiteit te "
+"maken, zodat uw gebruiker op uw peilingen kan reageren. Leden kunnen binnen "
+"activiteiten peilingen maken en er eenvoudig op stemmen."
+
+#: admin/inc/bpolls-welcome-page.php:24
+msgid "Help &amp; Support Resources"
+msgstr "Help &amp; Ondersteuningsbronnen"
+
+#: admin/inc/bpolls-welcome-page.php:25
+msgid ""
+"Here are all the resources you may need to get help from us. Documentation "
+"is usually the best place to start. Should you require help anytime, our "
+"customer care team is available to assist you at the support center."
+msgstr ""
+"Hier vind je alle bronnen die je nodig hebt om hulp van ons te krijgen. "
+"Documentatie is meestal de beste plaats om te beginnen. Mocht je op elk "
+"moment hulp nodig hebben, dan staat ons klantenserviceteam klaar om je te "
+"helpen in het ondersteuningscentrum."
+
+#: admin/inc/bpolls-welcome-page.php:30
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: admin/inc/bpolls-welcome-page.php:31
+msgid ""
+"We have prepared an extensive guide on BuddyPress Poll to learn all aspects "
+"of the plugin. You will find most of your answers here."
+msgstr ""
+"We hebben een uitgebreide handleiding over BuddyPress Poll opgesteld waarin "
+"u alle aspecten van de plug-in leert. De meeste van uw antwoorden vindt u "
+"hier."
+
+#: admin/inc/bpolls-welcome-page.php:32
+msgid "Read Documentation"
+msgstr "Lees de documentatie"
+
+#: admin/inc/bpolls-welcome-page.php:38
+msgid "Support Center"
+msgstr "Ondersteuning"
+
+#: admin/inc/bpolls-welcome-page.php:39
+msgid ""
+"We strive to offer the best customer care via our support center. Once your "
+"theme is activated, you can ask us for help anytime."
+msgstr ""
+"We streven ernaar de beste klantenservice te bieden via ons "
+"ondersteuningscentrum. Zodra je thema geactiveerd is, kun je ons altijd om "
+"hulp vragen."
+
+#: admin/inc/bpolls-welcome-page.php:40
+msgid "Get Support"
+msgstr "Krijg ondersteuning"
+
+#: admin/inc/bpolls-welcome-page.php:45
+msgid "Got Feedback?"
+msgstr "Heb je feedback?"
+
+#: admin/inc/bpolls-welcome-page.php:46
+msgid ""
+"We want to hear about your experience with the plugin. We would also love to "
+"hear any suggestions you may for future updates."
+msgstr ""
+"We horen graag wat je van de plugin vindt. We horen ook graag suggesties "
+"voor toekomstige updates."
+
+#: admin/inc/bpolls-welcome-page.php:47
+msgid "Send Feedback"
+msgstr "Verstuur feedback"
+
+#: admin/inc/email-notification-settings-tab.php:24
+msgid "Email Notifications Text"
+msgstr "E-mailmeldingen Tekst"
+
+#: admin/inc/email-notification-settings-tab.php:37
+msgid "Admin notification settings"
+msgstr "Instellingen voor beheerdersmeldingen"
+
+#: admin/inc/email-notification-settings-tab.php:46
+#: admin/inc/email-notification-settings-tab.php:98
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: admin/inc/email-notification-settings-tab.php:50
+#: admin/inc/email-notification-settings-tab.php:102
+msgid "Add notification subject"
+msgstr "Meldingsonderwerp toevoegen"
+
+#: admin/inc/email-notification-settings-tab.php:51
+#: admin/inc/email-notification-settings-tab.php:103
+msgid "Enter the subject line for notification subject."
+msgstr "Voer de onderwerpregel voor het meldingsonderwerp in."
+
+#: admin/inc/email-notification-settings-tab.php:59
+#: admin/inc/email-notification-settings-tab.php:111
+msgid "Notification content"
+msgstr "Melding"
+
+#: admin/inc/email-notification-settings-tab.php:74
+msgid ""
+"Text to admin for approve the blog.Personalize with HTML and {tag} markers."
+msgstr ""
+"Stuur een sms naar de beheerder om de blog goed te keuren. Personaliseer met "
+"HTML en {tag}-markeringen."
+
+#: admin/inc/email-notification-settings-tab.php:76
+#: admin/inc/email-notification-settings-tab.php:127
+msgid "Site title"
+msgstr "Site titel"
+
+#: admin/inc/email-notification-settings-tab.php:77
+#: admin/inc/email-notification-settings-tab.php:128
+msgid "Published post title"
+msgstr "Titel van gepubliceerd bericht"
+
+#: admin/inc/email-notification-settings-tab.php:78
+msgid "Selected admin first name"
+msgstr "Voornaam van geselecteerde beheerder"
+
+#: admin/inc/email-notification-settings-tab.php:89
+msgid "Member notification settings"
+msgstr "Instellingen voor meldingen voor leden"
+
+#: admin/inc/email-notification-settings-tab.php:125
+msgid ""
+"Text to member to notify them, the blog is approved. Personalize with HTML "
+"and {tag} markers."
+msgstr ""
+"Stuur een sms naar het lid om hen op de hoogte te stellen dat de blog is "
+"goedgekeurd. Personaliseer met HTML en {tag}-markeringen."
+
+#: admin/inc/email-notification-settings-tab.php:129
+msgid "Post autohr first name"
+msgstr "Post autohr voornaam"
+
+#: admin/inc/notifications-tab.php:24
+msgid "Email Notifications (WB)"
+msgstr "E-mailmeldingen (WB)"
+
+#: admin/inc/notifications-tab.php:36
+msgid "Enable Notifications"
+msgstr "Meldingen Inschakelen"
+
+#: admin/inc/notifications-tab.php:38
+msgid ""
+"Allow admin users and other users ( who create a poll ) to get notifications."
+msgstr ""
+"Sta beheerdersgebruikers en andere gebruikers (die een peiling maken) toe "
+"meldingen te ontvangen."
+
+#: admin/inc/notifications-tab.php:53
+msgid "Admin notifications"
+msgstr "Beheerdermeldingen"
+
+#: admin/inc/notifications-tab.php:55
+msgid ""
+"The admin will get a notification for review the poll created by a user. "
+"This option will work if \"Enable user publishing\" is disable."
+msgstr ""
+"De beheerder krijgt een melding om de door een gebruiker gemaakte enquête te "
+"beoordelen. Deze optie werkt als 'Gebruikerspublicatie inschakelen' is "
+"uitgeschakeld."
+
+#: admin/inc/notifications-tab.php:69
+msgid "Member Notification"
+msgstr "Ledenkennisgeving"
+
+#: admin/inc/notifications-tab.php:71
+msgid "The members will get a notification when admin approved their poll."
+msgstr ""
+"De leden krijgen een melding wanneer de beheerder hun enquête heeft "
+"goedgekeurd."
+
+#: admin/inc/notifications-tab.php:84
+msgid "Select admin user(s)"
+msgstr "Selecteer beheerder(s)"
+
+#: admin/inc/notifications-tab.php:86
+msgid "Select an admin to whom you want to get approval notifications."
+msgstr ""
+"Selecteer een beheerder aan wie u goedkeuringsmeldingen wilt ontvangen."
+
+#: admin/inc/wbpolls-setting-tab.php:24
+msgid "General (WB)"
+msgstr "Algemeen (WB)"
+
+#: admin/inc/wbpolls-setting-tab.php:36
+msgid "Who can vote?"
+msgstr "Wie kan stemmen?"
+
+#: admin/inc/wbpolls-setting-tab.php:38
+msgid "Select the user roles who can vote on polls."
+msgstr "Selecteer de gebruikersrollen die op polls kunnen stemmen."
+
+#: admin/inc/wbpolls-setting-tab.php:45 includes/class-wbpoll-helper.php:571
+#: includes/class-wbpoll-helper.php:589
+msgid "Guest"
+msgstr "Gast"
+
+#: admin/inc/wbpolls-setting-tab.php:57
+msgid "Who can create a poll?"
+msgstr "Wie kan een peiling maken?"
+
+#: admin/inc/wbpolls-setting-tab.php:59
+msgid "Select the user roles who can create a polls."
+msgstr "Selecteer de gebruikersrollen die polls kunnen maken."
+
+#: admin/inc/wbpolls-setting-tab.php:77
+msgid "Add Poll Page Mapping"
+msgstr "Toewijzing van enquêtepagina's toevoegen"
+
+#: admin/inc/wbpolls-setting-tab.php:81
+msgid "Create Poll Page"
+msgstr "Enquêtepagina maken"
+
+#: admin/inc/wbpolls-setting-tab.php:85 admin/inc/wbpolls-setting-tab.php:107
+msgid "- None -"
+msgstr "- Geen -"
+
+#: admin/inc/wbpolls-setting-tab.php:97 admin/inc/wbpolls-setting-tab.php:119
+#: template/poll-dashboard.php:138
+msgid "View"
+msgstr "Bekijk"
+
+#: admin/inc/wbpolls-setting-tab.php:98 admin/inc/wbpolls-setting-tab.php:120
+msgid "(opens in a new tab)"
+msgstr "(opent in een nieuw tabblad)"
+
+#: admin/inc/wbpolls-setting-tab.php:104
+msgid "Poll Dashboard Page"
+msgstr "Poll-dashboardpagina"
+
+#: admin/inc/wbpolls-setting-tab.php:130
+msgid "Allow users to create poll options."
+msgstr "Sta gebruikers toe poll-opties te maken."
+
+#: admin/inc/wbpolls-setting-tab.php:132
+msgid ""
+"This option will allow the users to create poll options. (Valid only for "
+"Text Poll type)"
+msgstr ""
+"Met deze optie kunnen gebruikers poll-opties maken. (Alleen geldig voor het "
+"type Tekstpeiling)"
+
+#: admin/inc/wbpolls-setting-tab.php:147
+msgid "Status of submitted poll"
+msgstr "Status van ingediende enquête"
+
+#: admin/inc/wbpolls-setting-tab.php:149
+msgid "Set the status of the newly submitted poll."
+msgstr "Stel de status in van de nieuw ingediende enquête."
+
+#: admin/inc/wbpolls-setting-tab.php:159
+msgid "Pending Review"
+msgstr "Wachtend Beoordeling"
+
+#: admin/inc/wbpolls-setting-tab.php:165 template/poll-dashboard.php:425
+msgid "Publish"
+msgstr "Publiceren"
+
+#: admin/inc/wbpolls-setting-tab.php:173
+msgid "Show/Hide Poll Results"
+msgstr "Enquêteresultaten tonen/verbergen"
+
+#: admin/inc/wbpolls-setting-tab.php:175
+msgid "Enable this option to show or hide the poll results."
+msgstr ""
+"Schakel deze optie in om de enquêteresultaten weer te geven of te verbergen."
+
+#: admin/inc/wbpolls-setting-tab.php:190
+msgid "Enable Poll Comment"
+msgstr "Enquêtecommentaar inschakelen"
+
+#: admin/inc/wbpolls-setting-tab.php:192
+msgid "Enable this option to show the poll comment."
+msgstr "Schakel deze optie in om het opiniepeilingcommentaar weer te geven."
+
+#: admin/inc/wbpolls-setting-tab.php:210
+msgid "Design (WB)"
+msgstr "Ontwerp (WB)"
+
+#: admin/inc/wbpolls-setting-tab.php:215
+msgid "Set Color Scheme"
+msgstr "Kleurenschema instellen"
+
+#: admin/inc/wbpolls-setting-tab.php:217
+msgid "Choose the color for progress bar and submit button."
+msgstr "Kies de kleur voor de voortgangsbalk en de verzendknop."
+
+#: admin/wbcom/templates/wbcom-license-page.php:12
+#: admin/wbcom/wbcom-paid-plugin-settings.php:33
+#: admin/wbcom/wbcom-paid-plugin-settings.php:34
+#: admin/wbcom/wbcom-paid-plugin-settings.php:53
+msgid "License"
+msgstr "Licentie"
+
+#: admin/wbcom/templates/wbcom-license-page.php:19
+msgid "Plugin License"
+msgstr "Plugin Licentie"
+
+#: admin/wbcom/templates/wbcom-license-page.php:25
+#: admin/wbcom/templates/wbcom-license-page.php:37
+#: edd-license/edd-plugin-license.php:409
+msgid "Product"
+msgstr "Product"
+
+#: admin/wbcom/templates/wbcom-license-page.php:26
+#: admin/wbcom/templates/wbcom-license-page.php:38
+#: edd-license/edd-plugin-license.php:410
+msgid "Version"
+msgstr "Versie"
+
+#: admin/wbcom/templates/wbcom-license-page.php:27
+#: admin/wbcom/templates/wbcom-license-page.php:39
+#: edd-license/edd-plugin-license.php:411
+msgid "Key"
+msgstr "Sleutel"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:12
+#: admin/wbcom/wbcom-admin-settings.php:369
+msgid "Themes & Extension"
+msgstr "Thema's & Uitbreidingen"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:20
+#: admin/wbcom/templates/wbcom-plugins-page.php:28
+msgid "Paid Extension"
+msgstr "Betaalde verlenging"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:21
+msgid "Free Extension"
+msgstr "Gratis uitbreiding"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:22
+msgid "LearnDash Extension"
+msgstr "Uitbreiding LearnDash"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:23
+#: admin/wbcom/templates/wbcom-plugins-page.php:362
+#: admin/wbcom/wbcom-admin-settings.php:288
+#: admin/wbcom/wbcom-admin-settings.php:289
+msgid "Our Themes"
+msgstr "Onze thema’s"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:29
+#: admin/wbcom/templates/wbcom-plugins-page.php:300
+#: admin/wbcom/templates/wbcom-plugins-page.php:425
+msgid "View More Extension"
+msgstr "Meer uitbreiding bekijken"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:37
+msgid "BuddyPress Moderation Pro"
+msgstr "BuddyPress Moderatie Pro"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:38
+msgid ""
+"BuddyPress Moderation solution with advanced features to give you complete "
+"control over your community and keep it secure with automatic moderation and "
+"limitations, and more."
+msgstr ""
+"BuddyPress Moderation oplossing met geavanceerde functies om u volledige "
+"controle te geven over uw community en deze veilig te houden met "
+"automatische moderatie en beperkingen, en meer."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:40
+#: admin/wbcom/templates/wbcom-plugins-page.php:53
+#: admin/wbcom/templates/wbcom-plugins-page.php:66
+#: admin/wbcom/templates/wbcom-plugins-page.php:79
+#: admin/wbcom/templates/wbcom-plugins-page.php:92
+#: admin/wbcom/templates/wbcom-plugins-page.php:105
+#: admin/wbcom/templates/wbcom-plugins-page.php:118
+#: admin/wbcom/templates/wbcom-plugins-page.php:131
+#: admin/wbcom/templates/wbcom-plugins-page.php:144
+#: admin/wbcom/templates/wbcom-plugins-page.php:157
+#: admin/wbcom/templates/wbcom-plugins-page.php:170
+#: admin/wbcom/templates/wbcom-plugins-page.php:183
+#: admin/wbcom/templates/wbcom-plugins-page.php:196
+#: admin/wbcom/templates/wbcom-plugins-page.php:209
+#: admin/wbcom/templates/wbcom-plugins-page.php:222
+#: admin/wbcom/templates/wbcom-plugins-page.php:235
+#: admin/wbcom/templates/wbcom-plugins-page.php:248
+#: admin/wbcom/templates/wbcom-plugins-page.php:261
+#: admin/wbcom/templates/wbcom-plugins-page.php:274
+#: admin/wbcom/templates/wbcom-plugins-page.php:287
+#: admin/wbcom/templates/wbcom-plugins-page.php:311
+#: admin/wbcom/templates/wbcom-plugins-page.php:324
+#: admin/wbcom/templates/wbcom-plugins-page.php:337
+#: admin/wbcom/templates/wbcom-plugins-page.php:350
+#: admin/wbcom/templates/wbcom-plugins-page.php:374
+#: admin/wbcom/templates/wbcom-plugins-page.php:387
+#: admin/wbcom/templates/wbcom-plugins-page.php:400
+#: admin/wbcom/templates/wbcom-plugins-page.php:413
+#: admin/wbcom/templates/wbcom-plugins-page.php:433
+#: admin/wbcom/templates/wbcom-plugins-page.php:443
+#: admin/wbcom/templates/wbcom-plugins-page.php:453
+#: admin/wbcom/templates/wbcom-plugins-page.php:463
+#: admin/wbcom/templates/wbcom-plugins-page.php:473
+#: admin/wbcom/templates/wbcom-plugins-page.php:483
+#: admin/wbcom/templates/wbcom-plugins-page.php:493
+#: admin/wbcom/templates/wbcom-plugins-page.php:503
+#: admin/wbcom/templates/wbcom-plugins-page.php:513
+#: admin/wbcom/templates/wbcom-plugins-page.php:523
+#: admin/wbcom/templates/wbcom-plugins-page.php:533
+#: admin/wbcom/templates/wbcom-plugins-page.php:543
+msgid "View Details"
+msgstr "Bekijk details"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:41
+#: admin/wbcom/templates/wbcom-plugins-page.php:54
+#: admin/wbcom/templates/wbcom-plugins-page.php:67
+#: admin/wbcom/templates/wbcom-plugins-page.php:80
+#: admin/wbcom/templates/wbcom-plugins-page.php:93
+#: admin/wbcom/templates/wbcom-plugins-page.php:106
+#: admin/wbcom/templates/wbcom-plugins-page.php:119
+#: admin/wbcom/templates/wbcom-plugins-page.php:132
+#: admin/wbcom/templates/wbcom-plugins-page.php:145
+#: admin/wbcom/templates/wbcom-plugins-page.php:158
+#: admin/wbcom/templates/wbcom-plugins-page.php:171
+#: admin/wbcom/templates/wbcom-plugins-page.php:184
+#: admin/wbcom/templates/wbcom-plugins-page.php:197
+#: admin/wbcom/templates/wbcom-plugins-page.php:210
+#: admin/wbcom/templates/wbcom-plugins-page.php:223
+#: admin/wbcom/templates/wbcom-plugins-page.php:236
+#: admin/wbcom/templates/wbcom-plugins-page.php:249
+#: admin/wbcom/templates/wbcom-plugins-page.php:262
+#: admin/wbcom/templates/wbcom-plugins-page.php:275
+#: admin/wbcom/templates/wbcom-plugins-page.php:288
+#: admin/wbcom/templates/wbcom-plugins-page.php:312
+#: admin/wbcom/templates/wbcom-plugins-page.php:325
+#: admin/wbcom/templates/wbcom-plugins-page.php:338
+#: admin/wbcom/templates/wbcom-plugins-page.php:351
+#: admin/wbcom/templates/wbcom-plugins-page.php:388
+#: admin/wbcom/templates/wbcom-plugins-page.php:444
+#: admin/wbcom/templates/wbcom-plugins-page.php:454
+#: admin/wbcom/templates/wbcom-plugins-page.php:464
+#: admin/wbcom/templates/wbcom-plugins-page.php:474
+#: admin/wbcom/templates/wbcom-plugins-page.php:484
+#: admin/wbcom/templates/wbcom-plugins-page.php:494
+#: admin/wbcom/templates/wbcom-plugins-page.php:504
+#: admin/wbcom/templates/wbcom-plugins-page.php:514
+#: admin/wbcom/templates/wbcom-plugins-page.php:524
+#: admin/wbcom/templates/wbcom-plugins-page.php:534
+#: admin/wbcom/templates/wbcom-plugins-page.php:544
+msgid "Get It Now"
+msgstr "Nu aanschaffen"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:50
+msgid "BuddyPress Resume Manager"
+msgstr "BuddyPress cv-manager"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:51
+msgid ""
+"BuddyPress Resume Manager adds display resume functionality on a user’s "
+"BuddyPress/BuddyBoss Platform Profile."
+msgstr ""
+"BuddyPress Resume Manager voegt cv-functionaliteit toe aan het BuddyPress/"
+"BuddyBoss Platform Profiel van een gebruiker."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:64
+msgid ""
+"BuddyPress Polls allows your community members to create polls as an "
+"activity, letting your members respond."
+msgstr ""
+"Met BuddyPress Polls kunnen leden van uw community polls maken als een "
+"activiteit en uw leden laten reageren."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:76
+msgid "BuddyPress Private Community Pro"
+msgstr "BuddyPress Privé Gemeenschap Pro"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:77
+msgid ""
+"BuddyPress Private Community Pro offers Privacy control for profiles. It "
+"provides a feature to lockdown BuddyPress Component and asks users to log in "
+"to go further to check the profile or any other protected details."
+msgstr ""
+"BuddyPress Private Community Pro biedt privacycontrole voor profielen. Het "
+"biedt een functie om BuddyPress Component te vergrendelen en vraagt "
+"gebruikers om in te loggen om verder te gaan om het profiel of andere "
+"beschermde details te controleren."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:89
+msgid "BuddyPress Profile Pro"
+msgstr "BuddyPress Profiel Pro"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:90
+msgid ""
+"BuddyPress Profile Pro gives you the power to extend BuddyPress Profiles "
+"with repeater fields and groups. You can easily add multiple field groups "
+"and display them at a member’s profile."
+msgstr ""
+"BuddyPress Profile Pro geeft je de mogelijkheid om BuddyPress-profielen uit "
+"te breiden met herhalingsvelden en groepen. Je kunt eenvoudig meerdere "
+"veldgroepen toevoegen en deze weergeven op het profiel van een lid."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:102
+msgid "BuddyPress Check-ins Pro"
+msgstr "BuddyPress Inchecken Pro"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:103
+msgid ""
+"BuddyPress Check-ins Pro Plugin allows your members to post check-ins like "
+"other social media platforms, on your website activity stream. Members have "
+"a mashup of their check-ins on their profile."
+msgstr ""
+"Met de BuddyPress Check-ins Pro Plugin kunnen je leden check-ins posten op "
+"de activiteitenstroom van je website, net als op andere sociale "
+"mediaplatforms. Leden hebben een mashup van hun check-ins op hun profiel."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:115
+#: admin/wbcom/templates/wbcom-plugins-page.php:430
+msgid "BuddyPress Member Blog"
+msgstr "BuddyPress Leden Blog"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:116
+msgid ""
+"BuddyPress Member Blog Pro plugin provides each of your site members their "
+"own writing environment with a fantastic user experience."
+msgstr ""
+"BuddyPress Member Blog Pro plugin biedt elk lid van je site zijn eigen "
+"schrijfomgeving met een fantastische gebruikerservaring."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:128
+msgid "BuddyPress BuddyVendor"
+msgstr "BuddyPress BuddyVendor"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:129
+msgid ""
+"BuddyVendor or BuddyPress Multivendor Marketplace Quickly turn your "
+"BuddyPress community into a social marketplace."
+msgstr ""
+"BuddyVendor of BuddyPress Multivendor Marktplaats Verander uw BuddyPress-"
+"gemeenschap snel in een sociale marktplaats."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:141
+msgid "BuddyPress Statistics"
+msgstr "BuddyPress Statistieken"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:142
+msgid ""
+"BuddyPress Stats plugin creates an activity log of everything that happens "
+"on your BuddyPress powered community site and keeps all counts on the user "
+"profile that displays a range of statistics of your community members."
+msgstr ""
+"BuddyPress Stats plugin maakt een activiteitenlogboek van alles wat er "
+"gebeurt op uw BuddyPress-gemeenschapssite en houdt alle tellingen bij op het "
+"gebruikersprofiel dat een reeks statistieken van uw gemeenschapsleden "
+"weergeeft."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:154
+msgid "Who viewed my profile"
+msgstr "Wie heeft mijn profiel bekeken"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:155
+msgid ""
+"The Who Viewed My Profile Plugin helps you to know about your profile "
+"visitors. It displays the count of the profile views on the member profile "
+"header."
+msgstr ""
+"De Wie heeft mijn profiel bekeken-plugin helpt je om meer te weten te komen "
+"over de bezoekers van je profiel. Het toont het aantal bekeken profielen in "
+"de kop van het profiel van het lid."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:167
+msgid "BuddyPress Friend & Follow Suggestion"
+msgstr "BuddyPress vriend & volg suggestie"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:168
+msgid ""
+"BuddyPress Friends and Follow suggestions plugin assists you with improving "
+"your BuddyPress or BuddyBoss Platform-based community."
+msgstr ""
+"BuddyPress Vrienden en Volg suggesties plugin helpt je bij het verbeteren "
+"van je BuddyPress of BuddyBoss Platform gebaseerde community."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:180
+msgid "BuddyPress Giphy"
+msgstr "BuddyPress Giphy"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:181
+msgid ""
+"Make your activity stream even more tempting and interesting to attract "
+"members by adding GIFs."
+msgstr ""
+"Maak je activiteitenstroom nog verleidelijker en interessanter om leden aan "
+"te trekken door GIF's toe te voegen."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:193
+msgid "Shortcodes for BuddyPress Pro"
+msgstr "Shortcodes voor BuddyPress Pro"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:194
+msgid ""
+"Add and Customize the BuddyPress components on any of the WordPress pages/"
+"posts using elementor widgets"
+msgstr ""
+"BuddyPress-componenten toevoegen en aanpassen op WordPress pagina's/posts "
+"met behulp van elementor widgets"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:206
+msgid "BuddyPress Sticky Post"
+msgstr "BuddyPress Sticky Post"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:207
+msgid ""
+"Make your posts sticky on BuddyPress by pinning site-wide and group "
+"activities on the top of the community wall."
+msgstr ""
+"Maak uw berichten sticky op BuddyPress door sitebrede en groepsactiviteiten "
+"bovenaan de communitymuur te prikken."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:219
+msgid "BuddyPress Quotes"
+msgstr "BuddyPress Citaten"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:220
+msgid ""
+"Allow BuddyPress users to post content with attractive background colors and "
+"beautiful images."
+msgstr ""
+"Laat BuddyPress-gebruikers inhoud posten met aantrekkelijke "
+"achtergrondkleuren en mooie afbeeldingen."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:232
+msgid "BuddyPress Auto Friends"
+msgstr "BuddyPress Auto Vrienden"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:233
+msgid ""
+"The new BuddyPress Automatic Friends plugins makes your new users feel a "
+"little more at home upon signing up to your community."
+msgstr ""
+"De nieuwe plugins BuddyPress Automatic Friends zorgt ervoor dat je nieuwe "
+"gebruikers zich een beetje meer thuis voelen wanneer ze zich aanmelden bij "
+"je community."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:245
+msgid "BuddyPress Newsfeed"
+msgstr "BuddyPress Nieuwsfeed"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:246
+msgid ""
+"Create A Customized Newsfeed Experience Just Like Facebook. By default, "
+"BuddyPress offers separate type of activities for your BuddyPress Activity "
+"Stream."
+msgstr ""
+"Creëer een aangepaste nieuwsfeed-ervaring net als Facebook. Standaard biedt "
+"BuddyPress aparte soorten activiteiten voor uw BuddyPress Activity Stream."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:258
+msgid "BuddyPress Status"
+msgstr "BuddyPress-status"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:259
+msgid ""
+"Allow members to add status on their profile and give their reactions to all "
+"the activity updates."
+msgstr ""
+"Laat leden een status toevoegen aan hun profiel en hun reacties geven op "
+"alle activiteitenupdates."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:271
+msgid "BuddyPress Hashtags"
+msgstr "BuddyPress Hashtags"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:272
+msgid ""
+"BuddyPress Hashtags for BuddyPress and bbPress. It allows adding hashtag "
+"links to BuddyPress activity and bbPress topics. "
+msgstr ""
+"BuddyPress Hashtags voor BuddyPress en bbPress. Hiermee kun je hashtag-links "
+"toevoegen aan BuddyPress-activiteiten en bbPress-onderwerpen."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:284
+msgid "BuddyPress Profanity"
+msgstr "BuddyPress Scheldwoorden"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:285
+msgid ""
+"Specify a list of bad words to control the content in your BuddyPress "
+"community."
+msgstr ""
+"Specificeer een lijst met slechte woorden om de inhoud in je BuddyPress-"
+"community te controleren."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:299
+msgid "Extension for LearnDash"
+msgstr "Uitbreiding voor LearnDash"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:308
+msgid "LMS Notes"
+msgstr "LMS opmerkingen"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:309
+msgid ""
+"Learndash Notes will extend the LearnDash functionality to create Notes for "
+"courses, lessons and topics."
+msgstr ""
+"Learndash Notes breidt de LearnDash-functionaliteit uit om notities te maken "
+"voor cursussen, lessen en onderwerpen."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:321
+msgid "Learndash wpForo"
+msgstr "Leren wpForo"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:322
+msgid ""
+"Learndash wpForo integration allows you to add a discussion channel for your "
+"learners. Allow you to link your course with multiple forums."
+msgstr ""
+"Met Learndash wpForo-integratie kun je een discussiekanaal toevoegen voor je "
+"studenten. Hiermee kunt je je cursus koppelen aan meerdere forums."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:334
+msgid "LearnDash Dashboard"
+msgstr "Dashboard voor LearnDash"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:335
+msgid ""
+"LearnDash Dashboard gives the admin, instructors, and students a dashboard "
+"of their own, where they can easily manage anything related to their "
+"courses, lessons, and contact others."
+msgstr ""
+"LearnDash Dashboard geeft de beheerder, docenten en studenten een eigen "
+"dashboard, waar ze gemakkelijk alles kunnen beheren met betrekking tot hun "
+"cursussen, lessen en contact met anderen."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:347
+msgid "PeepSo LearnDash Integration"
+msgstr "PeepSo LearnDash-integratie"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:348
+msgid ""
+"Integrate LearnDash with PeepSo to display options for courses inside a "
+"member profile."
+msgstr ""
+"Integreer LearnDash met PeepSo om opties voor cursussen weer te geven in een "
+"profiel van een lid."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:363
+msgid "View More Themes"
+msgstr "Bekijk meer thema’s"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:371
+msgid "Reign BuddyPress Theme"
+msgstr "Reign BuddyPress Thema"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:372
+msgid ""
+"Create your social network website for the company, school, sports team, or "
+"any niche community using a highly customizable WordPress BuddyPress theme."
+msgstr ""
+"Maak je sociale netwerkwebsite voor je bedrijf, school, sportteam of een "
+"andere nichegemeenschap met behulp van een zeer aanpasbaar WordPress "
+"BuddyPress-thema."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:375
+msgid "Get Sandbox"
+msgstr "Haal Sandbox"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:384
+msgid "BuddyX Pro Theme"
+msgstr "BuddyX Pro Thema"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:385
+msgid ""
+"To build an online community website for all niches with full flexibility, "
+"control, and freedom. No coding is required! Offers unique layouts with "
+"clean code and easy-to-customize options giving you a whole new way to "
+"visualize BuddyPress."
+msgstr ""
+"Een online communitywebsite bouwen voor alle niches met volledige "
+"flexibiliteit, controle en vrijheid. Geen codering vereist! Biedt unieke lay-"
+"outs met schone code en eenvoudig aan te passen opties die u een geheel "
+"nieuwe manier geven om BuddyPress te visualiseren."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:397
+msgid "BuddyX Free Theme"
+msgstr "BuddyX Gratis Thema"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:398
+#: admin/wbcom/templates/wbcom-plugins-page.php:451
+msgid ""
+"Allow users to create and manage their to-dos with the relevant category "
+"right from their profile."
+msgstr ""
+"Laat gebruikers hun to-dos maken en beheren met de relevante categorie "
+"direct vanuit hun profiel."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:401
+#: admin/wbcom/templates/wbcom-plugins-page.php:434
+msgid "Get Pro"
+msgstr "Krijg Pro"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:410
+msgid "KnowX Theme"
+msgstr "Thema KnowX"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:411
+msgid ""
+"A Free WordPress Knowledge base Theme. KnowX helps you set up a Knowledge "
+"Base in WordPress in less time than it takes to brew a coffee."
+msgstr ""
+"Een gratis WordPress Kennisdatabank Thema. KnowX helpt je bij het opzetten "
+"van een kennisbank in WordPress in minder tijd dan het kost om koffie te "
+"zetten."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:414
+msgid "Get Demo"
+msgstr "Demo aanvragen"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:424
+msgid "Our Free Extension"
+msgstr "Onze gratis uitbreiding"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:431
+msgid ""
+"BuddyPress Member Blog is a free plugin that allows users to create/manage "
+"their blog/posts from the profile."
+msgstr ""
+"BuddyPress Member Blog is een gratis plugin waarmee gebruikers hun blog/"
+"posts kunnen maken/beheren vanuit hun profiel."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:440
+msgid "BuddyPress Ads"
+msgstr "BuddyPress-advertenties"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:441
+msgid ""
+"Integrate your BuddyPress community to provide a smooth customer experience "
+"and increase site engagement."
+msgstr ""
+"Integreer uw BuddyPress-gemeenschap om een soepele klantervaring te bieden "
+"en de betrokkenheid bij de site te verhogen."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:450
+msgid "BuddyPress User Todo List"
+msgstr "BuddyPress gebruiker todo lijst"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:460
+msgid "BuddyPress Job Manager"
+msgstr "BuddyPress Taakmanager"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:461
+msgid ""
+"Create specific tabs in employer’s and candidate’s profiles on BuddyPress."
+msgstr ""
+"Maak specifieke tabbladen in de profielen van werkgevers en kandidaten op "
+"BuddyPress."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:470
+msgid "BuddyPress Member Reviews"
+msgstr "BuddyPress-ledenbeoordelingen"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:471
+msgid ""
+"Allow members to provide their ratings and reviews to other members’ "
+"profiles based on multiple criteria."
+msgstr ""
+"Laat leden hun beoordelingen en recensies geven aan de profielen van andere "
+"leden op basis van meerdere criteria."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:480
+msgid "BuddyPress Birthday Widget"
+msgstr "BuddyPress Verjaardag Widget"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:481
+msgid "Display the upcoming birthdays of your BuddyPress community members."
+msgstr "Geef de aankomende verjaardagen van uw BuddyPress-leden weer."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:490
+msgid "reCaptcha for BuddyPress"
+msgstr "reCaptcha voor BuddyPress"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:491
+msgid ""
+"Buddypress reCaptcha is the best solution that provides an all-in-one "
+"captcha for  Buddypress, WordPress, and woo-commerce."
+msgstr ""
+"Buddypress reCaptcha is de beste oplossing die een alles-in-één captcha "
+"biedt voor Buddypress, WordPress en woo-commerce."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:500
+msgid "BuddyPress WooCommerce Integration"
+msgstr "BuddyPress WooCommerce integratie"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:501
+msgid ""
+"BuddyWoo Integration Plugin will help to integrate WooCommerce with "
+"Buddypress."
+msgstr ""
+"BuddyWoo Integratie Plugin zal helpen om WooCommerce te integreren met "
+"Buddypress."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:510
+msgid "BuddyPress Member Export Import"
+msgstr "BuddyPress lid exporteren importeren"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:511
+msgid ""
+"Easily import/export your BuddyPress members. Small but an important "
+"features."
+msgstr ""
+"Gemakkelijk importeren/exporteren van uw BuddyPress-leden. Kleine maar "
+"belangrijke functies."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:520
+msgid "BuddyPress Activity Bump"
+msgstr "BuddyPress Activiteit Bump"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:521
+msgid ""
+"ump the most recent activity on the top of newsfeed in your BuddyPress "
+"website."
+msgstr ""
+"plaats de meest recente activiteit bovenaan de nieuwsfeed op je BuddyPress-"
+"website."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:530
+msgid "Shortcodes for BuddyPress"
+msgstr "Shortcodes voor BuddyPress Pro"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:531
+msgid ""
+"Use shortcodes to display activity streams, members, group listings, and "
+"user notifications on any post."
+msgstr ""
+"Gebruik shortcodes om activiteitenstreams, leden, groepsoverzichten en "
+"gebruikersmeldingen weer te geven op elk bericht."
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:540
+msgid "BuddyPress Create Group Type"
+msgstr "BuddyPress Groep Type aanmaken"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:541
+msgid ""
+"Create group types on BuddyPress based on the interest areas of your "
+"community members."
+msgstr ""
+"Maak groepstypes op BuddyPress gebaseerd op de interessegebieden van uw "
+"communityleden."
+
+#: admin/wbcom/templates/wbcom-support-page.php:12
+msgid "Help & Support"
+msgstr "Help & Support"
+
+#: admin/wbcom/templates/wbcom-support-page.php:17
+msgid "How can we help you?"
+msgstr "Hoe kunnen wij u helpen?"
+
+#: admin/wbcom/templates/wbcom-support-page.php:18
+msgid ""
+"Our team is here to help you out at anytime. If you have any idea about how "
+"we could improve. You can share access to your site on our helpdesk if it "
+"can help getting faster."
+msgstr ""
+"Ons team staat altijd klaar om je te helpen. Als je een idee hebt over hoe "
+"we kunnen verbeteren. Je kunt de toegang tot je site delen op onze helpdesk "
+"als dat kan helpen om sneller te gaan."
+
+#: admin/wbcom/templates/wbcom-support-page.php:27
+msgid "Tickets Support"
+msgstr "Tickets Ondersteuning"
+
+#: admin/wbcom/templates/wbcom-support-page.php:28
+msgid ""
+"Open a ticket on our helpdesk, we don't guarantee a fast response but within "
+"a week. Except if you've purchased one of our product we'll reply within 24 "
+"hours."
+msgstr ""
+"Open een ticket op onze helpdesk, we garanderen geen snelle reactie maar "
+"binnen een week. Behalve als je een van onze producten hebt gekocht, dan "
+"antwoorden we binnen 24 uur."
+
+#: admin/wbcom/templates/wbcom-support-page.php:31
+msgid "Open a ticket"
+msgstr "Open een ticket"
+
+#: admin/wbcom/templates/wbcom-support-page.php:44
+#: admin/wbcom/templates/wbcom-support-page.php:48
+msgid "Contact Us"
+msgstr "Neem contact met ons op"
+
+#: admin/wbcom/templates/wbcom-support-page.php:45
+msgid ""
+"Create a new thread on our plugin page, participation is open to anyone from "
+"all around the world. We'll be there to help as well but can't guarantee any "
+"delay."
+msgstr ""
+"Maak een nieuwe thread aan op onze pluginpagina, deelname staat open voor "
+"iedereen van over de hele wereld. We zullen er zijn om te helpen, maar "
+"kunnen geen vertraging garanderen."
+
+#: admin/wbcom/wbcom-admin-settings.php:236
+msgid "Activate"
+msgstr "Activeren"
+
+#: admin/wbcom/wbcom-admin-settings.php:237
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: admin/wbcom/wbcom-admin-settings.php:280
+#: admin/wbcom/wbcom-admin-settings.php:281
+msgid "Our Plugins"
+msgstr "Onze plugins"
+
+#: admin/wbcom/wbcom-admin-settings.php:363 buddypress-polls.php:359
+msgid "Settings"
+msgstr "Instellingen"
+
+#: buddypress-polls.php:318 buddypress-polls.php:339
+msgid ""
+"BuddyPress Polls requires to be activated on the blog where BuddyPress is "
+"activated."
+msgstr ""
+"BuddyPress Polls moeten worden geactiveerd op de blog waar BuddyPress is "
+"geactiveerd."
+
+#: buddypress-polls.php:323 buddypress-polls.php:348
+msgid ""
+"BuddyPress Polls and BuddyPress need to share the same network configuration."
+msgstr ""
+"BuddyPress Polls en BuddyPress moeten dezelfde netwerkconfiguratie delen."
+
+#: buddypress-polls.php:687
+msgid "Previous"
+msgstr "Vorige"
+
+#: buddypress-polls.php:688
+msgid "Next"
+msgstr "Volgende"
+
+#: buddypress-polls.php:689
+msgid "Posts navigation"
+msgstr "Berichten navigatie"
+
+#: buddypress-polls.php:690
+msgid "Posts"
+msgstr "Berichten"
+
+#. translators: %s:
+#: buddypress-polls.php:735
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr "%s"
+
+#: buddypress-polls.php:750
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr "%s"
+
+#: buddypress-polls.php:770
+msgid "BuddyPress Polls Sidebar"
+msgstr "BuddyPress Polls-zijbalk"
+
+#. translators: %1$s: Version Info ; %2$s: changelog link ; %3$s: New Version Info
+#: edd-license/EDD_BPOLLS_Plugin_Updater.php:254
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Er is een nieuwe versie van %1$s beschikbaar; %2$sbekijk de versie%3$s-"
+"details%4$s."
+
+#. translators: %1$s: Version Info ; %2$s: changelog link ; %3$s: New Version Info
+#: edd-license/EDD_BPOLLS_Plugin_Updater.php:263
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Er is een nieuwe versie van %1$s beschikbaar; %2$sbekijk versie%3$s-"
+"details%4$s of %5$supdate nu%6$s."
+
+#: edd-license/EDD_BPOLLS_Plugin_Updater.php:456
+msgid "You do not have permission to install plugin updates"
+msgstr "U heeft onvoldoende rechten om deze plug-in te installeren"
+
+#: edd-license/EDD_BPOLLS_Plugin_Updater.php:456
+msgid "Error"
+msgstr "Fout"
+
+#: edd-license/edd-plugin-license.php:119
+#: edd-license/edd-plugin-license.php:156
+#: edd-license/edd-plugin-license.php:232
+#: edd-license/edd-plugin-license.php:493
+msgid "An error occurred, please try again."
+msgstr "Er is een fout opgetreden, probeer het opnieuw."
+
+#. translators: %1$s: Expire Time
+#: edd-license/edd-plugin-license.php:128
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "Je licentiesleutel vervalt op %s."
+
+#: edd-license/edd-plugin-license.php:134
+msgid "Your license key has been disabled."
+msgstr "Je licentiesleutel is uitgeschakeld."
+
+#: edd-license/edd-plugin-license.php:138
+msgid "Invalid license."
+msgstr "Ongeldige licentie."
+
+#: edd-license/edd-plugin-license.php:143
+msgid "Your license is not active for this URL."
+msgstr "Je licentie is niet actief voor deze URL."
+
+#. translators: %1$s: Item Name
+#: edd-license/edd-plugin-license.php:148
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr "Dit lijkt een onjuiste licentiesleutel te zijn voor %s."
+
+#: edd-license/edd-plugin-license.php:152
+msgid "Your license key has reached its activation limit."
+msgstr "Je licentiesleutel heeft zijn activatielimiet bereikt."
+
+#. translators: %1$s: Expire Time
+#: edd-license/edd-plugin-license.php:340
+#, php-format
+msgid "Your BuddyPress Polls plugin license key expired on %s."
+msgstr "De licentiesleutel van uw BuddyPress Polls-plug-in is verlopen op %s."
+
+#: edd-license/edd-plugin-license.php:370
+msgid "Please activate your BuddyPress Polls plugin license key."
+msgstr "Activeer uw licentiesleutel voor de BuddyPress Polls-plug-in."
+
+#: edd-license/edd-plugin-license.php:433
+msgid "Deactivate License"
+msgstr "Deactiveer licentie"
+
+#: edd-license/edd-plugin-license.php:439
+msgid "Activate License"
+msgstr "Activeer licentie"
+
+#: edd-license/edd-plugin-license.php:511
+#, php-format
+msgid " Expires %s."
+msgstr " Verloopt op %s."
+
+#: edd-license/edd-plugin-license.php:514
+#, php-format
+msgid "You have %1$s/%2$s-sites activated."
+msgstr "U heeft %1$s/%2$s-sites geactiveerd."
+
+#: includes/class-wbpoll-helper.php:115
+msgid "WB Polls"
+msgstr "WB-peilingen"
+
+#: includes/class-wbpoll-helper.php:116
+msgid "WB Poll"
+msgstr "WB-peiling"
+
+#: includes/class-wbpoll-helper.php:117
+msgid "Add New Poll"
+msgstr "Nieuwe poll toevoegen"
+
+#: includes/class-wbpoll-helper.php:119
+msgid "New Poll"
+msgstr "Nieuwe enquête"
+
+#: includes/class-wbpoll-helper.php:121
+msgid "Search Poll"
+msgstr "Zoek enquête"
+
+#: includes/class-wbpoll-helper.php:122
+msgid "No Poll found"
+msgstr "Geen opiniepeiling gevonden"
+
+#: includes/class-wbpoll-helper.php:123
+msgid "No Poll found in trash"
+msgstr "Geen opiniepeiling gevonden in de prullenbak"
+
+#: includes/class-wbpoll-helper.php:506 includes/class-wbpoll-helper.php:522
+msgid "Unapproved"
+msgstr "Afgekeurd"
+
+#: includes/class-wbpoll-helper.php:507 includes/class-wbpoll-helper.php:523
+msgid "Approved"
+msgstr "Goedgekeurd"
+
+#: includes/class-wbpoll-helper.php:508 includes/class-wbpoll-helper.php:524
+msgid "Spam"
+msgstr "Spam"
+
+#: includes/class-wbpoll-helper.php:509 includes/class-wbpoll-helper.php:525
+msgid "Unverified"
+msgstr "Niet-geverifieerd"
+
+#: includes/class-wbpoll-helper.php:982 includes/class-wbpoll-helper.php:1143
+msgid "Unknown or answer deleted"
+msgstr "Onbekend of antwoord verwijderd"
+
+#. translators: %s:
+#: includes/class-wbpoll-helper.php:998 includes/class-wbpoll-helper.php:1004
+#, php-format
+msgid ""
+"The Poll is out of date. You have already voted for <strong>\"%s\"</strong>"
+msgstr "De peiling is verouderd. Je hebt al op <strong>'%s'</strong> gestemd"
+
+#: includes/class-wbpoll-helper.php:1013
+msgid "The Poll is out of date. You have not voted."
+msgstr "De peiling is verouderd. Je hebt niet gestemd."
+
+#: includes/class-wbpoll-helper.php:1051
+msgid "You are not able to vote for this poll"
+msgstr "U kunt niet stemmen op deze poll"
+
+#: includes/class-wbpoll-helper.php:1071
+msgid "Do you have an account and want to vote as a registered user? Please"
+msgstr ""
+"Heeft u een account en wilt u als geregistreerde gebruiker stemmen? "
+"Alsjeblieft"
+
+#: includes/class-wbpoll-helper.php:1071
+msgid "login"
+msgstr "inloggen"
+
+#. translators: %s:
+#: includes/class-wbpoll-helper.php:1159
+#, php-format
+msgid "You have already voted for <strong>\"%s\"</strong>"
+msgstr "Je hebt al op <strong>'%s'</strong> gestemd"
+
+#: includes/class-wbpoll-helper.php:1171
+msgid "You have already voted "
+msgstr "U hebt al gestemd"
+
+#: includes/class-wbpoll-helper.php:1183
+msgid "Result hide by Admin"
+msgstr "Resultaat verbergen door beheerder"
+
+#: includes/class-wbpoll-helper.php:1199
+msgid "Poll Status: Yet to start"
+msgstr "Enquêtestatus: moet nog beginnen"
+
+#: includes/class-wbpoll-helper.php:1245
+msgid ""
+"Do you have account and want to vote as registered user? Please <a  "
+"href=\"#\">login</a>"
+msgstr ""
+"Heeft u een account en wilt u stemmen als geregistreerde gebruiker? <a  "
+"href=\"#\">Log</a> alsjeblieft in"
+
+#. translators: %s:
+#: includes/class-wbpoll-helper.php:1260
+#, php-format
+msgid "No account yet? <a href=\"%s\">Register</a>"
+msgstr "Nog geen account? <a href=\"%s\">Register</a>"
+
+#: includes/class-wbpoll-helper.php:1582
+msgid "Add Option"
+msgstr "Voeg optie toe"
+
+#: includes/class-wbpoll-helper.php:1591 template/create-poll.php:224
+#: template/create-poll.php:238 template/create-poll.php:268
+#: template/create-poll.php:289 template/create-poll.php:342
+#: template/create-poll.php:388 template/create-poll.php:440
+#: template/create-poll.php:485 template/create-poll.php:507
+#: template/create-poll.php:522 template/create-poll.php:544
+#: template/create-poll.php:566 template/create-poll.php:595
+#: template/create-poll.php:623 template/create-poll.php:639
+msgid "Add More"
+msgstr "Voeg meer toe"
+
+#: includes/class-wbpoll-helper.php:1594
+msgid "Post Option"
+msgstr "Post-optie"
+
+#: includes/class-wbpoll-helper.php:1619
+msgid "This particular poll has been paused by the "
+msgstr "Deze specifieke peiling is gepauzeerd door de"
+
+#: includes/class-wbpoll-helper.php:1944 includes/class-wbpoll-helper.php:1962
+msgid "Select poll"
+msgstr "Selecteer opiniepeiling"
+
+#: includes/class-wbpoll-helper.php:1952 includes/class-wbpoll-helper.php:1970
+msgid "Please submit your vote in the poll to access the poll results."
+msgstr ""
+"Geef uw stem door in de poll om toegang te krijgen tot de resultaten van de "
+"poll."
+
+#: includes/class-wbpoll-helper.php:2232 template/create-poll.php:650
+msgid "Never Expire"
+msgstr "Vervalt nooit"
+
+#: includes/class-wbpoll-helper.php:2233
+msgid "Select if you want your poll to never expire."
+msgstr "Selecteer of u wilt dat uw peiling nooit verloopt."
+
+#: includes/class-wbpoll-helper.php:2245
+msgid ""
+"Poll Start Date. [<strong> Note:</strong> Field required. Default is today]"
+msgstr ""
+"Startdatum van de enquête. [ <strong>Opmerking:</strong> veld vereist. "
+"Standaard is vandaag]"
+
+#: includes/class-wbpoll-helper.php:2255
+msgid ""
+"Poll End Date.  [<strong> Note:</strong> Field required. Default is next "
+"seven days. ]"
+msgstr ""
+"Einddatum van de enquête. [ <strong>Opmerking:</strong> veld vereist. De "
+"standaardinstelling is de komende zeven dagen. ]"
+
+#: includes/class-wbpoll-helper.php:2263
+msgid "Who Can Vote"
+msgstr "Wie kan stemmen"
+
+#: includes/class-wbpoll-helper.php:2264
+msgid "Which user role will have vote capability"
+msgstr "Welke gebruikersrol stemmogelijkheden heeft"
+
+#: includes/class-wbpoll-helper.php:2272
+msgid "Show Poll Description in Shortcode"
+msgstr "Toon pollbeschrijving in shortcode"
+
+#: includes/class-wbpoll-helper.php:2273
+msgid "Select if you want to show content."
+msgstr "Selecteer of u inhoud wilt weergeven."
+
+#: includes/class-wbpoll-helper.php:2285 template/create-poll.php:684
+msgid "Show Result After Expires"
+msgstr "Resultaat weergeven nadat het is verlopen"
+
+#: includes/class-wbpoll-helper.php:2287 template/create-poll.php:697
+msgid ""
+"Select if you want poll to show result After expires. After expires the "
+"result will be shown always."
+msgstr ""
+"Selecteer of u wilt dat de enquête het resultaat laat zien nadat deze is "
+"verlopen. Na afloop wordt het resultaat altijd getoond."
+
+#: includes/class-wbpoll-helper.php:2299 template/create-poll.php:701
+msgid "Enable Multi Choice"
+msgstr "Schakel Multi-keuze in"
+
+#: includes/class-wbpoll-helper.php:2300 template/create-poll.php:714
+msgid "Can user vote multiple option"
+msgstr "Kan de gebruiker op meerdere opties stemmen"
+
+#: includes/class-wbpoll-helper.php:2310
+msgid "Votes Per User"
+msgstr "Stemmen per gebruiker"
+
+#: includes/class-wbpoll-helper.php:2311
+msgid "Set the number of times a user can vote."
+msgstr "Stel het aantal keren in dat een gebruiker kan stemmen."
+
+#: includes/class-wbpoll-helper.php:2324 template/create-poll.php:729
+msgid "Add Additional fields"
+msgstr "Voeg extra velden toe"
+
+#: includes/class-wbpoll-helper.php:2325 template/create-poll.php:755
+msgid "Add Additional fields functionality only for text poll."
+msgstr "Add Extra veldenfunctionaliteit alleen voor tekstpeiling."
+
+#: includes/class-wbpoll-helper.php:2339
+msgid "Show poll under the BuddyPress activity"
+msgstr "Poll weergeven onder de BuddyPress-activiteit"
+
+#: includes/class-wbpoll-helper.php:2341
+msgid "Select if you want poll to Show poll under the BuddyPress activity."
+msgstr ""
+"Selecteer of u de enquête wilt weergeven onder de BuddyPress-activiteit."
+
+#: includes/class-wbpoll-helper.php:2403 includes/class-wbpoll-helper.php:2436
+#: includes/class-wbpoll-helper.php:2489 includes/class-wbpoll-helper.php:2572
+#: includes/class-wbpoll-helper.php:2653
+msgid "Drag and Drop to reorder poll answers"
+msgstr "Slepen en neerzetten om de antwoorden op enquêtes opnieuw te ordenen"
+
+#: includes/class-wbpoll-helper.php:2412 includes/class-wbpoll-helper.php:2443
+#: includes/class-wbpoll-helper.php:2496 includes/class-wbpoll-helper.php:2579
+#: includes/class-wbpoll-helper.php:2663
+msgid "Toggle"
+msgstr "Toggle"
+
+#: includes/class-wbpoll-helper.php:2440 template/create-poll.php:190
+msgid "Image"
+msgstr "Afbeelding"
+
+#: includes/class-wbpoll-helper.php:2460 includes/class-wbpoll-helper.php:2522
+#: includes/class-wbpoll-helper.php:2605
+msgid "Label"
+msgstr "Label"
+
+#: includes/class-wbpoll-helper.php:2465 template/create-poll.php:263
+#: template/create-poll.php:284 template/create-poll.php:561
+msgid "Image URL"
+msgstr "Afbeelding URL"
+
+#: includes/class-wbpoll-helper.php:2493 template/create-poll.php:197
+msgid "Video"
+msgstr "Video"
+
+#: includes/class-wbpoll-helper.php:2527 template/create-poll.php:318
+#: template/create-poll.php:364 template/create-poll.php:583
+msgid "Video URL"
+msgstr "Video URL"
+
+#: includes/class-wbpoll-helper.php:2536 includes/class-wbpoll-helper.php:2543
+#: includes/class-wbpoll-helper.php:2619 includes/class-wbpoll-helper.php:2626
+#: template/create-poll.php:322 template/create-poll.php:368
+#: template/create-poll.php:420 template/create-poll.php:465
+#: template/create-poll.php:587 template/create-poll.php:615
+msgid "Import information from ?"
+msgstr "Gegevens importeren uit ?"
+
+#: includes/class-wbpoll-helper.php:2576 template/create-poll.php:204
+msgid "Audio"
+msgstr "Audio"
+
+#: includes/class-wbpoll-helper.php:2610 template/create-poll.php:417
+#: template/create-poll.php:462 template/create-poll.php:612
+msgid "Audio URL"
+msgstr "Audio Bestand URL"
+
+#: includes/class-wbpoll-helper.php:2659 template/create-poll.php:211
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/class-wbpoll-helper.php:2668
+msgid "Add HTML Answer"
+msgstr "HTML-antwoord toevoegen"
+
+#: includes/class-wbpoll-helper.php:2957
+msgid "WordPress Core Login Form"
+msgstr "WordPress Core-inlogformulier"
+
+#: public/class-buddypress-polls-public.php:236
+msgid "Submitting vote"
+msgstr "Stem indienen"
+
+#: public/class-buddypress-polls-public.php:237
+msgid "Please select your choice."
+msgstr "Selecteer uw keuze."
+
+#. translators: %d: Polls Max Options
+#: public/class-buddypress-polls-public.php:245
+#, php-format
+msgid "The max number of allowed options is %d."
+msgstr "Het maximale aantal toegestane opties is %d."
+
+#: public/class-buddypress-polls-public.php:246
+#: public/class-buddypress-polls-public.php:366
+msgid "Add a poll"
+msgstr "Voeg een opiniepeiling toe"
+
+#: public/class-buddypress-polls-public.php:247
+msgid "Delete option"
+msgstr "Verwijder optie"
+
+#: public/class-buddypress-polls-public.php:248
+msgid "Are you sure that you want to delete this option from the poll?"
+msgstr "Weet u zeker dat u deze optie uit de poll wilt verwijderen?"
+
+#: public/class-buddypress-polls-public.php:249
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: public/class-buddypress-polls-public.php:308
+msgid "Please select at least one answer"
+msgstr "Selecteer minimaal één antwoord"
+
+#: public/class-buddypress-polls-public.php:411
+msgid "Cancel Poll"
+msgstr "Poll annuleren"
+
+#: public/class-buddypress-polls-public.php:418
+msgid "Option 1"
+msgstr "Optie 1"
+
+#: public/class-buddypress-polls-public.php:424
+msgid "Option 2"
+msgstr "Optie 2"
+
+#: public/class-buddypress-polls-public.php:430
+msgid "Add new option"
+msgstr "Nieuwe optie toevoegen"
+
+#: public/class-buddypress-polls-public.php:440
+msgid "Allow members to choose multiple poll options."
+msgstr "Sta leden toe om meerdere poll-opties te kiezen."
+
+#: public/class-buddypress-polls-public.php:447
+msgid "Allow members to add their poll options."
+msgstr "Sta leden toe hun poll-opties toe te voegen."
+
+#: public/class-buddypress-polls-public.php:454
+msgid "Hide poll results from members who have not voted yet. "
+msgstr "Verberg pollresultaten voor leden die nog niet hebben gestemd. "
+
+#: public/class-buddypress-polls-public.php:460
+msgid "Follow-up"
+msgstr "Follow-up"
+
+#: public/class-buddypress-polls-public.php:461
+msgid "Enter Message"
+msgstr "Voer bericht in"
+
+#: public/class-buddypress-polls-public.php:502
+msgid "Polls Update"
+msgstr "Polls-update"
+
+#. translators: %s:
+#: public/class-buddypress-polls-public.php:536
+#, php-format
+msgid "%s created a poll"
+msgstr "%s heeft een enquête gemaakt"
+
+#. translators: %s:
+#: public/class-buddypress-polls-public.php:568
+#, php-format
+msgid "%1$s created a poll in the group %2$s"
+msgstr "%1$s heeft een enquête gemaakt in de groep %2$s"
+
+#: public/class-buddypress-polls-public.php:805
+#: public/class-buddypress-polls-public.php:1087
+#: public/class-buddypress-polls-public.php:1097
+#: public/class-buddypress-polls-public.php:1580
+#: public/inc/bp-poll-activity-graph.php:62
+#: public/inc/class-bp-poll-activity-graph.php:106
+msgid "(no votes yet)"
+msgstr "(nog geen stemmen)"
+
+#: public/class-buddypress-polls-public.php:808
+#: public/class-buddypress-polls-public.php:1100
+#: public/class-buddypress-polls-public.php:1583
+msgctxt "Poll Activity"
+msgid "of"
+msgstr "van"
+
+#: public/class-buddypress-polls-public.php:862
+#: public/class-buddypress-polls-public.php:1140
+#: public/class-buddypress-polls-public.php:1636
+msgid "View All"
+msgstr "Bekijk alles"
+
+#. translators: %s: Vote Count
+#: public/class-buddypress-polls-public.php:865
+#: public/class-buddypress-polls-public.php:1143
+#: public/class-buddypress-polls-public.php:1639
+#, php-format
+msgid "%s Vote"
+msgid_plural "%s Votes"
+msgstr[0] "%s stem"
+msgstr[1] "%s stemmen"
+
+#: public/class-buddypress-polls-public.php:899
+msgid "Add poll option..."
+msgstr "Poll-optie toevoegen..."
+
+#: public/class-buddypress-polls-public.php:900
+msgid "Add option"
+msgstr "Optie toevoegen"
+
+#: public/class-buddypress-polls-public.php:902
+msgid "Poll option field is empty."
+msgstr "Het veld Poll-optie is leeg."
+
+#: public/class-buddypress-polls-public.php:911
+#: public/class-buddypress-polls-public.php:1668
+msgid "Submit"
+msgstr "Verzenden"
+
+#: public/class-buddypress-polls-public.php:1871
+msgid "Oops!"
+msgstr "Oeps!"
+
+#: public/class-buddypress-polls-public.php:1874
+msgid "You are not allowed to enter more than "
+msgstr "Je mag niet meer invoeren dan "
+
+#: public/class-buddypress-polls-public.php:1874
+msgid " options."
+msgstr " opties."
+
+#: public/class-buddypress-polls-public.php:1881
+msgid "Got it!"
+msgstr "Begrepen!"
+
+#: public/class-buddypress-polls-public.php:2108
+msgid "Sorry, poll didn't start yet."
+msgstr "Sorry, de enquête is nog niet gestart."
+
+#: public/class-buddypress-polls-public.php:2117
+msgid "Sorry, you can not vote. Poll has already expired."
+msgstr "Helaas, u kunt niet stemmen. De peiling is al verlopen."
+
+#: public/class-buddypress-polls-public.php:2141
+msgid "Sorry, you are not allowed to vote."
+msgstr "Sorry, u mag niet stemmen."
+
+#: public/class-buddypress-polls-public.php:2236
+msgid "You already voted this poll !"
+msgstr "Je hebt al op deze poll gestemd!"
+
+#: public/class-buddypress-polls-public.php:2258
+msgid "Sorry, something wrong while voting, please refresh this page"
+msgstr "Sorry, er is iets misgegaan tijdens het stemmen. Vernieuw deze pagina"
+
+#: public/class-buddypress-polls-public.php:2344
+msgid "Thanks for voting!"
+msgstr "Bedankt voor het stemmen!"
+
+#: public/class-buddypress-polls-public.php:2351
+msgid "Thanks for the voting. Results are hidden by the admin for this poll"
+msgstr ""
+"Bedankt voor het stemmen. Resultaten worden door de beheerder voor deze "
+"enquête verborgen"
+
+#: public/inc/bp-poll-activity-graph.php:65
+msgctxt "Poll Activity Graph"
+msgid "of"
+msgstr "van"
+
+#: public/inc/class-bp-poll-activity-graph.php:27
+msgid "A poll graph widget"
+msgstr "Een poll-grafiekwidget"
+
+#: public/inc/class-bp-poll-activity-graph.php:31
+msgctxt "widget name"
+msgid "(BuddyPress) Poll Graph"
+msgstr "(BuddyPress) Pollgrafiek"
+
+#: public/inc/class-bp-poll-activity-graph.php:109
+msgctxt "Poll Graph"
+msgid "of"
+msgstr "van"
+
+#: public/inc/class-bp-poll-activity-graph.php:207
+msgid "Select activity to view poll results:"
+msgstr "Selecteer activiteit om de resultaten van de enquête te bekijken:"
+
+#: public/inc/class-bp-poll-activity-graph.php:220
+msgid "Export CSV"
+msgstr "CSV exporteren"
+
+#: public/inc/class-bp-poll-activity-graph.php:293
+#: public/inc/class-wb-poll-report-graph.php:97
+msgid "Title:"
+msgstr "Titel:"
+
+#: public/inc/class-bp-poll-activity-graph.php:295
+msgid "Max Poll to show:"
+msgstr "Max Poll om te tonen:"
+
+#: public/inc/class-bp-poll-activity-graph.php:299
+#: public/inc/class-wb-poll-report-graph.php:114
+msgid "Default Poll to display:"
+msgstr "Standaard poll om weer te geven:"
+
+#: public/inc/class-bp-poll-activity-graph.php:310
+#: public/inc/class-wb-poll-report-graph.php:140
+msgid "No polls are created yet."
+msgstr "Er zijn nog geen opiniepeilingen aangemaakt."
+
+#: public/inc/class-wb-poll-report-graph.php:86
+msgid "WB Poll Report"
+msgstr "WB-peilingsrapport"
+
+#: public/inc/class-wb-poll-report-graph.php:100
+msgid "Poll Result Type :"
+msgstr "Type opiniepeilingresultaat:"
+
+#: restapi/v1/pollrestapi.php:385
+msgid "Your poll is published."
+msgstr "Uw opiniepeiling is gepubliceerd."
+
+#: restapi/v1/pollrestapi.php:406
+msgid "Your poll is in "
+msgstr "Je poll is binnen"
+
+#: restapi/v1/pollrestapi.php:422
+msgid "Your poll update successfully"
+msgstr "Uw poll-update is succesvol uitgevoerd"
+
+#: restapi/v1/pollrestapi.php:698
+msgid "Poll pause successfully."
+msgstr "Enquête is onderbroken."
+
+#: restapi/v1/pollrestapi.php:715
+msgid "Poll deleted successfully!"
+msgstr "Poll succesvol verwijderd!"
+
+#: restapi/v1/pollrestapi.php:743
+msgid "Poll unpublish successfully!"
+msgstr "De publicatie van de enquête is succesvol ongedaan gemaakt!"
+
+#: restapi/v1/pollrestapi.php:771
+msgid "Poll publish successfully!"
+msgstr "Poll succesvol gepubliceerd!"
+
+#: restapi/v1/pollrestapi.php:782
+msgid "Poll report"
+msgstr "Poll-rapport"
+
+#. translators: %s:
+#: template/archive-wbpoll.php:62
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink naar %s"
+
+#: template/archive-wbpoll.php:62
+msgid "View poll"
+msgstr "Bekijk enquête"
+
+#: template/create-poll.php:22
+msgid "You are not allow to create the poll."
+msgstr "U heeft geen toestemming om de enquête te maken."
+
+#: template/create-poll.php:33
+msgid "You are not allow to edit the poll."
+msgstr "U heeft geen toestemming om de poll te bewerken."
+
+#: template/create-poll.php:128
+msgid "Add Poll"
+msgstr "Enquête toevoegen"
+
+#: template/create-poll.php:150
+msgid "Poll Description"
+msgstr "Beschrijving van de enquête"
+
+#: template/create-poll.php:168
+msgid "Poll Type"
+msgstr "Enquêtetype"
+
+#: template/create-poll.php:176
+msgid "Select Poll Type"
+msgstr "Selecteer Polltype"
+
+#: template/create-poll.php:239 template/create-poll.php:290
+#: template/create-poll.php:389 template/create-poll.php:486
+#: template/create-poll.php:523
+msgid "Remove Fields"
+msgstr "Velden verwijderen"
+
+#: template/create-poll.php:503 template/create-poll.php:518
+#: template/create-poll.php:635
+msgid "HTML Content"
+msgstr "HTML-inhoud"
+
+#: template/create-poll.php:653 template/create-poll.php:687
+#: template/create-poll.php:704 template/create-poll.php:732
+msgid "input type=\"radio\""
+msgstr "invoertype = \"radio\""
+
+#: template/create-poll.php:663
+msgid ""
+"Select if you want your poll to never expire.(can be override from shortcode "
+"param)"
+msgstr ""
+"Selecteer of je wilt dat je poll nooit verloopt. (kan worden overschreven "
+"vanuit de shortcode-parameter)"
+
+#: template/create-poll.php:669
+msgid "Poll Start Date. [Note: Field required. Default is today]"
+msgstr ""
+"Startdatum van de enquête. [Opmerking: veld vereist. Standaard is vandaag]"
+
+#: template/create-poll.php:679
+msgid "Poll End Date. [Note: Field required. Default is next seven days.]"
+msgstr ""
+"Einddatum van de enquête. [Opmerking: veld vereist. Standaard is dit de "
+"komende zeven dagen.]"
+
+#: template/create-poll.php:763
+msgid "Poll Update"
+msgstr "Enquête-update"
+
+#: template/create-poll.php:765
+msgid "Poll Create"
+msgstr "Enquête maken"
+
+#: template/create-poll.php:772 template/poll-dashboard.php:188
+#: template/poll-dashboard.php:312 template/poll-dashboard.php:438
+msgid "This page content only for login members."
+msgstr "De inhoud van deze pagina is alleen voor ingelogde leden."
+
+#: template/poll-dashboard.php:19
+msgid "Published"
+msgstr "Gepubliceerd"
+
+#: template/poll-dashboard.php:22
+msgid "Pending"
+msgstr "In afwachting"
+
+#: template/poll-dashboard.php:25
+msgid "Draft"
+msgstr "Concept"
+
+#: template/poll-dashboard.php:47
+msgid "Published Poll Listing"
+msgstr "Gepubliceerde opiniepeilinglijst"
+
+#: template/poll-dashboard.php:50 template/poll-dashboard.php:211
+#: template/poll-dashboard.php:334
+msgid "Create new poll"
+msgstr "Nieuwe peiling maken"
+
+#: template/poll-dashboard.php:57 template/poll-dashboard.php:107
+#: template/poll-dashboard.php:218 template/poll-dashboard.php:267
+#: template/poll-dashboard.php:341 template/poll-dashboard.php:389
+msgid "Title"
+msgstr "Titel"
+
+#: template/poll-dashboard.php:59 template/poll-dashboard.php:109
+#: template/poll-dashboard.php:220 template/poll-dashboard.php:269
+#: template/poll-dashboard.php:343 template/poll-dashboard.php:391
+msgid "Time Status"
+msgstr "Tijdstatus"
+
+#: template/poll-dashboard.php:86 template/poll-dashboard.php:248
+#: template/poll-dashboard.php:370
+msgid "Polls Not Found"
+msgstr "Peilingen niet gevonden"
+
+#: template/poll-dashboard.php:140 template/poll-dashboard.php:299
+#: template/poll-dashboard.php:422
+msgid "Edit"
+msgstr "Bewerken"
+
+#: template/poll-dashboard.php:153
+msgid "Resume"
+msgstr "Hervatten"
+
+#: template/poll-dashboard.php:157
+msgid "Pause"
+msgstr "Pauzeren"
+
+#: template/poll-dashboard.php:175
+msgid "Unpublish"
+msgstr "De-publiceer"
+
+#: template/poll-dashboard.php:208
+msgid "Pending Poll Listing"
+msgstr "In afwachting van opiniepeilinglijst"
+
+#: template/poll-dashboard.php:331
+msgid "Draft Poll Listing"
+msgstr "Ontwerpenquêtelijst"
+
+#. Plugin Name of the plugin/theme
+msgid "Wbcom Designs – BuddyPress Polls"
+msgstr "Wbcom Designs - BuddyPress-peilingen"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wbcomdesigns.com/plugins/"
+msgstr "http://www.wbcomdesigns.com/plugins/"
+
+#. Description of the plugin/theme
+msgid ""
+"BuddyPress Polls plugin allows you and your community to create polls in "
+"posts. The polls can be placed in the main activity stream, in users’ "
+"profiles and even in groups."
+msgstr ""
+"Met de BuddyPress Polls-plug-in kunnen jij en je community polls in "
+"berichten maken. De peilingen kunnen in de hoofdactiviteitenstroom, in "
+"gebruikersprofielen en zelfs in groepen worden geplaatst."
+
+#. Author of the plugin/theme
+msgid "wbcomdesigns"
+msgstr "wbcomdesigns"
+
+#. Author URI of the plugin/theme
+msgid "https://wbcomdesigns.com"
+msgstr "https://wbcomdesigns.com/"

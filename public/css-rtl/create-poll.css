@@ -1,0 +1,418 @@
+.main-poll-create {
+    background: var(--bpolls-bg-primary, #fff);
+    margin: 0 0 20px;
+    padding: 20px !important;
+    height: 100%;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+}
+
+.main-poll-create .dashboard-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    margin: 0 0 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--bpolls-border-color, #e0e0e0);
+}
+
+.main-poll-create .dashboard-top .back-to-dashboard {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--bpolls-text-secondary, #50575e);
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+}
+
+.main-poll-create .dashboard-top .back-to-dashboard:hover {
+    color: var(--bpolls-text-primary, #1e1e1e);
+    background: var(--bpolls-bg-secondary, #f0f0f0);
+}
+
+.main-poll-create .dashboard-top .back-to-dashboard .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.main-poll-create .dashboard-top .main-title {
+    flex: 1;
+}
+
+.main-poll-create .dashboard-top .main-title h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--bpolls-text-primary, #1e1e1e);
+}
+
+.main-poll-create .wbpolls-create .form-group {
+    margin: 0 0 15px;
+}
+
+.main-poll-create .wbpolls-create .form-group label {
+    display: block;
+    margin: 0 0 5px;
+}
+
+.main-poll-create .wbpolls-create .form-group input[type=text],
+.main-poll-create .wbpolls-create .form-group textarea.form-control,
+.main-poll-create .wbpolls-create .form-group select.form-control {
+    width: 100%;
+}
+
+.main-poll-create .wbpolls-create .form-group textarea.form-control {
+    min-height: 80px;
+    padding: 10px;
+}
+
+.wbpolls-answer-wrap {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    gap: 20px;
+    margin: 15px 0;
+}
+
+.wbpolls-answer-wrap .wbpoll-list-item {
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+    background: var(--bpolls-bg-secondary, rgba(0, 0, 0, 0.02));
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.wbpolls-answer-wrap .ans-records,
+.wbpolls-answer-wrap .remove {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.wbpolls-answer-wrap .remove {
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* .wbpolls-answer-wrap .remove .add-field {
+    display: none;
+} */
+
+.wbpolls-answer-wrap .add-field {
+    -webkit-appearance: none;
+    background-image: url(../images/plus.svg) !important;
+    background-color: rgba(26, 116, 229, 0.21) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    font-size: 0 !important;
+    width: 50px !important;
+    min-width: 50px !important;
+    min-height: 50px !important;
+    padding: 0 !important;
+    background-size: 28px !important;
+    border-radius: 6px !important;
+    border: 0 !important;
+}
+
+.wbpolls-answer-wrap .add-field:hover {
+    background-color: rgba(26, 116, 229, 0.32) !important;
+}
+
+.wbpolls-answer-wrap .remove-field {
+    background-image: url(../images/cross.svg) !important;
+    background-color: rgb(240, 242, 244) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    font-size: 0 !important;
+    width: 50px !important;
+    min-height: 50px !important;
+    padding: 0 !important;
+    background-size: 28px !important;
+    border-radius: 6px !important;
+    border: 0 !important;
+}
+
+.wbpolls-answer-wrap .remove-field:hover {
+    background-color: var(--bpolls-danger, rgba(255, 0, 0, 0.12)) !important;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap label {
+    font-size: 15px;
+    display: block;
+    margin: 0 0 5px;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap input {
+    width: 100%;
+}
+
+.wp-embed .wbpolls-answer-wrap .ans-records-wrap input {
+    min-height: 34px;
+    padding: 0 15px;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap textarea {
+    min-height: 80px;
+    padding: 10px;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap .wbpoll-image-input-preview {
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background: #fafafa;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.wbpolls-answer-wrap .ans-records-wrap .wbpoll-image-input-preview:before {
+    content: "Preview";
+    position: absolute;
+    margin: auto;
+    color: var(--bpolls-text-muted, #ddd);
+    text-shadow: 0 -1px 0 var(--bpolls-bg-primary, #fff);
+    font-size: 13px;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap .wbpoll-image-input-preview-thumbnail {
+    z-index: 1;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap .wbpoll-image-input-preview-thumbnail img {
+    width: 100%;
+    height: 100%;
+    max-height: 210px;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap .wbpoll-image-input-details {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-right: 15px;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap .wbpoll-image-input-details::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap .wbpoll-image-input-details .wbpoll_image_answer_url,
+.wbpolls-answer-wrap .ans-records-wrap .wbpoll-image-input-details .wbpoll_video_answer_url,
+.wbpolls-answer-wrap .ans-records-wrap .wbpoll-image-input-details .wbpoll_audio_answer_url {
+    width: -webkit-calc(100% - 50px);
+    width: calc(100% - 50px);
+    float: right;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap .wbpoll-image-input-details .bpolls-attach {
+    margin: 0 10px 0 0 !important;
+    padding: 0;
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 4px;
+    float: left;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap .wbpoll-input-group-suggestions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap .wbpoll-input-group-suggestions span {
+    font-size: 13px;
+    color: var(--bpolls-text-muted, #bbb);
+    margin-left: 10px;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap .wbpoll-input-group-suggestions label {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--bpolls-text-primary, #1e1e1e);
+    margin-left: 16px;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap .wbpoll-input-group-suggestions input {
+    width: auto;
+    margin: 0 0 0 3px;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap audio,
+.wbpolls-answer-wrap .ans-records-wrap video {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.wbpolls-answer-wrap .ans-records-wrap .wbpoll-image-input-details input[type=text] {
+    margin: 0 0 15px;
+}
+
+.wbpolls-answer-wrap #type_html input[type=text] {
+    margin: 0 0 20px;
+}
+
+.wbcom-polls-option-wrap fieldset {
+    width: 100% !important;
+    margin: 15px 0;
+    padding: 0;
+    border: 0;
+}
+
+table.form-table.wbpoll-answer-options,
+table.form-table.wbpoll-answer-options td,
+table.form-table.wbpoll-answer-options th {
+    text-align: right;
+    border-right: 0;
+    border-left: 0;
+}
+
+.wbcom-polls-option-wrap input[type=text] {
+    width: 100%;
+}
+
+.wbcom-polls-option-wrap td,
+.wbcom-polls-option-wrap th {
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.wbcom-polls-option-wrap fieldset label::before {
+    content: none;
+}
+
+.wbcom-polls-option-wrap span.description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 13px;
+    margin: 5px 0 0;
+}
+
+.wbcom-polls-option-wrap fieldset label.wbpoll-answer-options-radio-field {
+    margin-left: 10px;
+}
+
+/* .wbcom-polls-option-wrap fieldset input[type="radio"] {
+    display: inline-block;
+    margin: 0 !important;
+    outline: 0;
+    position: relative !important;
+    left: auto;
+    border-radius: 100px;
+    width: 20px !important;
+    height: 20px !important;
+    background: #fff;
+    cursor: pointer;
+    -webkit-transition: all .15s ease-out 0s;
+    transition: all .15s ease-out 0s;
+} */
+
+.wbcom-polls-option-wrap fieldset input[type="radio"]+span {
+    vertical-align: top;
+}
+
+.main-poll-create .wbpolls-create .wbpoll-answer-options th {
+    vertical-align: inherit;
+    padding-left: 15px;
+}
+
+.wbpoll-form .wbpolls-add-option-button,
+.wbpoll-form .wbpolls-remove-option-button {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+    padding: 7px 20px;
+    color: var(--wbpoll-global-primary-color) !important;
+    text-decoration: none;
+    border-radius: 4px !important;
+    background: #fff;
+    border: 2px solid var(--wbpoll-global-primary-color) !important;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.wbpoll-form .wbpolls-add-option-button {
+    margin: 15px 0 0;
+}
+
+.wbpoll-form .wbpolls-add-option-button:hover,
+.wbpoll-form .wbpolls-add-option-button:focus,
+.wbpoll-form .wbpolls-remove-option-button:hover,
+.wbpoll-form .wbpolls-remove-option-button:focus {
+    background-color: transparent;
+    color: inherit;
+    box-shadow: 0 0.5em 0.5em -0.4em #3a3a3a !important;
+    -webkit-transform: translateY(-0.1em);
+    -ms-transform: translateY(-0.1em);
+    transform: translateY(-0.1em);
+    border: 2px solid var(--wbpoll-global-primary-color) !important;
+}
+
+@media screen and (max-width: 767px) {
+    .main-poll-create .wbpolls-create .ans-records-wrap .wbpoll-image-input-preview {
+        width: 100%;
+        height: 210px;
+    }
+
+    .main-poll-create .wbpolls-create .ans-records-wrap .wbpoll-image-input-details {
+        margin: 15px 0 0;
+    }
+}

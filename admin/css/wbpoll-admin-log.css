@@ -1,0 +1,107 @@
+/* Modal */
+.wbpolls-log-table td.log-status {
+    text-transform: capitalize;
+}
+
+.wbpolls-log-table .action.open_log {
+    margin-right: 4px;
+}
+
+/* Modal */
+.wbpolls-log-modal.openmodal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999999;
+}
+
+/* Modal Content/Box */
+.wbpolls-log-modal .modal-header {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #0073aa;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    border-radius: 0.3rem;
+}
+
+.wbpolls-log-modal .modal-header h2 {
+    margin: 0;
+    color: #fff;
+}
+
+.wbpolls-log-modal .modal-header .close {
+    background-image: url(../images/cross.svg) !important;
+    background-color: rgb(240, 242, 244) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    font-size: 0 !important;
+    width: 30px !important;
+    min-height: 30px !important;
+    padding: 0 !important;
+    background-size: 28px !important;
+    border-radius: 6px !important;
+    border: 0 !important;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.wbpolls-log-modal .modal-header .close:hover {
+    opacity: 1;
+}
+
+.wbpolls-log-modal .modal-content {
+    background-color: #fff;
+    margin: 6% auto;
+    border: 1px solid #dde1ef;
+    width: 100%;
+    max-width: 520px;
+    border-radius: 0.3rem;
+}
+
+.wbpolls-log-modal .modal-body {
+    padding: 1.25rem;
+}
+
+.wbpolls-log-modal .modal-body .modal-body-group {
+    background: #f6f7f9;
+    margin: 0 0 10px;
+    padding: 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    border-radius: 0.3rem;
+}
+
+.wbpolls-log-modal .modal-body .modal-body-group:last-child {
+    margin-bottom: 0;
+}
+
+.wbpolls-log-modal .modal-body .modal-body-group-content.left {
+    font-weight: 600;
+    margin-right: 10px;
+}
