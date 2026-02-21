@@ -101,43 +101,52 @@ $features = array(
 );
 ?>
 <div class="wbcom-tab-content">
-	<div class="wbcom-welcome-main-wrapper">
-		<div class="wbcom-welcome-head" style="text-align:center;">
-			<h2 style="font-size:1.5em;margin-bottom:8px;"><?php esc_html_e( 'Upgrade to WB Polls Pro', 'buddypress-polls' ); ?></h2>
-			<p class="wbcom-welcome-description"><?php esc_html_e( 'Unlock image, video & audio polls, surveys, CSV export, and more.', 'buddypress-polls' ); ?></p>
-		</div>
+	<div class="wbcom-admin-title-section">
+		<h3 style="margin: 0 0 5px"><?php esc_html_e( 'Upgrade to WB Polls Pro', 'buddypress-polls' ); ?></h3>
+		<p class="description"><?php esc_html_e( 'Unlock image, video & audio polls, surveys, CSV export, and more.', 'buddypress-polls' ); ?></p>
+	</div>
+	<div class="wbcom-admin-option-wrap wbcom-admin-option-wrap-view">
+		<div class="wbcom-wrapper-admin">
 
-		<table class="widefat striped" style="max-width:700px;margin:20px auto;">
-			<thead>
-				<tr>
-					<th style="width:55%;"><?php esc_html_e( 'Feature', 'buddypress-polls' ); ?></th>
-					<th style="text-align:center;"><?php esc_html_e( 'Lite', 'buddypress-polls' ); ?></th>
-					<th style="text-align:center;background:#f0f6fc;"><?php esc_html_e( 'Pro', 'buddypress-polls' ); ?></th>
-				</tr>
-			</thead>
-			<tbody>
-				<?php foreach ( $features as $feature ) : ?>
-				<tr>
-					<td><?php echo esc_html( $feature['name'] ); ?></td>
-					<td style="text-align:center;">
+			<!-- Comparison Header -->
+			<div class="wbcom-settings-section-wrap">
+				<div class="wbcom-settings-section-options-heading" style="flex: 1;">
+					<label><?php esc_html_e( 'Feature', 'buddypress-polls' ); ?></label>
+				</div>
+				<div class="wbcom-settings-section-options" style="display: flex; gap: 0; text-align: center;">
+					<span style="display: inline-block; width: 80px; font-weight: 600;"><?php esc_html_e( 'Lite', 'buddypress-polls' ); ?></span>
+					<span style="display: inline-block; width: 80px; font-weight: 600; color: #2271b1;"><?php esc_html_e( 'Pro', 'buddypress-polls' ); ?></span>
+				</div>
+			</div>
+
+			<!-- Feature Rows -->
+			<?php foreach ( $features as $feature ) : ?>
+			<div class="wbcom-settings-section-wrap">
+				<div class="wbcom-settings-section-options-heading" style="flex: 1;">
+					<label><?php echo esc_html( $feature['name'] ); ?></label>
+				</div>
+				<div class="wbcom-settings-section-options" style="display: flex; gap: 0; text-align: center;">
+					<span style="display: inline-block; width: 80px;">
 						<?php if ( $feature['lite'] ) : ?>
-							<span class="dashicons dashicons-yes-alt" style="color:#00a32a;"></span>
+							<span class="dashicons dashicons-yes-alt" style="color: #00a32a;"></span>
 						<?php else : ?>
-							<span class="dashicons dashicons-minus" style="color:#ccc;"></span>
+							<span class="dashicons dashicons-minus" style="color: #ccc;"></span>
 						<?php endif; ?>
-					</td>
-					<td style="text-align:center;background:#f0f6fc;">
-						<span class="dashicons dashicons-yes-alt" style="color:#00a32a;"></span>
-					</td>
-				</tr>
-				<?php endforeach; ?>
-			</tbody>
-		</table>
+					</span>
+					<span style="display: inline-block; width: 80px;">
+						<span class="dashicons dashicons-yes-alt" style="color: #00a32a;"></span>
+					</span>
+				</div>
+			</div>
+			<?php endforeach; ?>
 
-		<div style="text-align:center;margin:30px 0;">
-			<a href="<?php echo esc_url( $pro_url ); ?>" class="button button-primary button-hero" target="_blank" rel="noopener">
-				<?php esc_html_e( 'Get WB Polls Pro', 'buddypress-polls' ); ?>
-			</a>
+			<!-- CTA -->
+			<div class="wbcom-settings-section-wrap" style="justify-content: center; padding: 25px 20px;">
+				<a href="<?php echo esc_url( $pro_url ); ?>" class="button button-primary button-hero" target="_blank" rel="noopener">
+					<?php esc_html_e( 'Get WB Polls Pro', 'buddypress-polls' ); ?>
+				</a>
+			</div>
+
 		</div>
 	</div>
 </div>
