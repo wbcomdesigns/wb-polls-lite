@@ -27,11 +27,14 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-// Prevent activation if Pro version is active.
-if ( defined( 'BPOLLS_PLUGIN_VERSION' ) ) {
+// Deactivate self if Pro version is active.
+if ( defined( 'BPOLLS_PLUGIN_VERSION' ) || ( function_exists( 'is_plugin_active' ) && is_plugin_active( 'buddypress-polls/buddypress-polls.php' ) ) ) {
+	add_action( 'admin_init', function () {
+		deactivate_plugins( plugin_basename( __FILE__ ) );
+	} );
 	add_action( 'admin_notices', function () {
-		echo '<div class="notice notice-error"><p>';
-		echo '<strong>WB Polls Lite</strong> cannot run while <strong>WB Polls Pro</strong> is active. Please deactivate one of them.';
+		echo '<div class="notice notice-info is-dismissible"><p>';
+		echo '<strong>WB Polls Lite</strong> has been deactivated. The <strong>Pro</strong> version includes all Lite features.';
 		echo '</p></div>';
 	} );
 	return;
