@@ -28,15 +28,15 @@ $wp_rewrite->flush_rules();
 					<div class="wbcom-support-info-widgets">
 						<div class="wbcom-support-inner">
 						<h3><span class="dashicons dashicons-book"></span><?php esc_html_e( 'Documentation', 'buddypress-polls' ); ?></h3>
-						<p><?php esc_html_e( 'We have prepared an extensive guide on BuddyPress Poll to learn all aspects of the plugin. You will find most of your answers here.', 'buddypress-polls' ); ?></p>
-						<a href="<?php echo esc_url( 'https://wbcomdesigns.com/docs/buddypress-paid-addons/buddypress-polls/' ); ?>" class="button button-primary button-welcome-support" target="_blank"><?php esc_html_e( 'Read Documentation', 'buddypress-polls' ); ?></a>
+						<p><?php esc_html_e( 'We have prepared an extensive guide on WB Polls to learn all aspects of the plugin. You will find most of your answers here.', 'buddypress-polls' ); ?></p>
+						<a href="<?php echo esc_url( 'https://wbcomdesigns.com/docs/free-starter-starter-plugins/wb-polls-lite/' ); ?>" class="button button-primary button-welcome-support" target="_blank"><?php esc_html_e( 'Read Documentation', 'buddypress-polls' ); ?></a>
 						</div>
 					</div>
 
 					<div class="wbcom-support-info-widgets">
 						<div class="wbcom-support-inner">
 						<h3><span class="dashicons dashicons-sos"></span><?php esc_html_e( 'Support Center', 'buddypress-polls' ); ?></h3>
-						<p><?php esc_html_e( 'We strive to offer the best customer care via our support center. Once your theme is activated, you can ask us for help anytime.', 'buddypress-polls' ); ?></p>
+						<p><?php esc_html_e( 'We strive to offer the best customer care via our support center. Once the plugin is activated, you can ask us for help anytime.', 'buddypress-polls' ); ?></p>
 						<a href="<?php echo esc_url( 'https://wbcomdesigns.com/support/' ); ?>" class="button button-primary button-welcome-support" target="_blank"><?php esc_html_e( 'Get Support', 'buddypress-polls' ); ?></a>
 					</div>
 					</div>
