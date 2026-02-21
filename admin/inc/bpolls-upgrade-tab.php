@@ -9,144 +9,104 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-
-$pro_url = 'https://wbcomdesigns.com/downloads/buddypress-polls/';
-
-$features = array(
-	array(
-		'name' => __( 'Create & Manage Polls', 'buddypress-polls' ),
-		'lite' => true,
-		'pro'  => true,
-	),
-	array(
-		'name' => __( 'Frontend Poll Dashboard', 'buddypress-polls' ),
-		'lite' => true,
-		'pro'  => true,
-	),
-	array(
-		'name' => __( 'Guest Voting', 'buddypress-polls' ),
-		'lite' => true,
-		'pro'  => true,
-	),
-	array(
-		'name' => __( 'Poll Scheduling', 'buddypress-polls' ),
-		'lite' => true,
-		'pro'  => true,
-	),
-	array(
-		'name' => __( 'Multi-Select Options', 'buddypress-polls' ),
-		'lite' => true,
-		'pro'  => true,
-	),
-	array(
-		'name' => __( 'AJAX Live Results', 'buddypress-polls' ),
-		'lite' => true,
-		'pro'  => true,
-	),
-	array(
-		'name' => __( 'BuddyPress Activity Polls', 'buddypress-polls' ),
-		'lite' => true,
-		'pro'  => true,
-	),
-	array(
-		'name' => __( 'BuddyPress Group Polls', 'buddypress-polls' ),
-		'lite' => true,
-		'pro'  => true,
-	),
-	array(
-		'name' => __( 'Shortcodes & REST API', 'buddypress-polls' ),
-		'lite' => true,
-		'pro'  => true,
-	),
-	array(
-		'name' => __( 'Image Polls', 'buddypress-polls' ),
-		'lite' => false,
-		'pro'  => true,
-	),
-	array(
-		'name' => __( 'Video Polls', 'buddypress-polls' ),
-		'lite' => false,
-		'pro'  => true,
-	),
-	array(
-		'name' => __( 'Audio Polls', 'buddypress-polls' ),
-		'lite' => false,
-		'pro'  => true,
-	),
-	array(
-		'name' => __( 'Surveys', 'buddypress-polls' ),
-		'lite' => false,
-		'pro'  => true,
-	),
-	array(
-		'name' => __( 'CSV Export', 'buddypress-polls' ),
-		'lite' => false,
-		'pro'  => true,
-	),
-	array(
-		'name' => __( 'WP-CLI Commands', 'buddypress-polls' ),
-		'lite' => false,
-		'pro'  => true,
-	),
-	array(
-		'name' => __( 'Sample Data Generator', 'buddypress-polls' ),
-		'lite' => false,
-		'pro'  => true,
-	),
-	array(
-		'name' => __( 'Priority Support', 'buddypress-polls' ),
-		'lite' => false,
-		'pro'  => true,
-	),
-);
 ?>
+<style>
+	.bpolls-upgrade-wrap .wbcom-support-info-widgets {
+		max-width: 420px !important;
+	}
+	.bpolls-upgrade-wrap .wbcom-support-inner ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	.bpolls-upgrade-wrap .wbcom-support-inner ul li {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		padding: 8px 0;
+		font-size: 14px;
+		color: #1D2A4F;
+		border-bottom: 1px solid #f0f0f1;
+	}
+	.bpolls-upgrade-wrap .wbcom-support-inner ul li:last-child {
+		border-bottom: none;
+	}
+	.bpolls-upgrade-wrap .wbcom-support-inner ul li .dashicons {
+		flex-shrink: 0;
+		width: 20px;
+		height: 20px;
+		font-size: 20px;
+	}
+	.bpolls-upgrade-wrap .wbcom-support-inner h3 {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+	.bpolls-upgrade-wrap .wbcom-welcome-support-info .wbcom-support-inner p {
+		height: auto;
+	}
+	.bpolls-upgrade-wrap .wbcom-support-info-wrap {
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
+	.bpolls-upgrade-wrap .bpolls-cta {
+		text-align: center;
+		margin: 25px 0 10px;
+	}
+	.bpolls-upgrade-wrap .bpolls-cta .button-welcome-support {
+		font-size: 16px !important;
+		padding: 12px 32px !important;
+		height: auto !important;
+		line-height: 1.5 !important;
+	}
+</style>
 <div class="wbcom-tab-content">
-	<div class="wbcom-admin-title-section">
-		<h3 style="margin: 0 0 5px"><?php esc_html_e( 'Upgrade to WB Polls Pro', 'buddypress-polls' ); ?></h3>
-		<p class="description"><?php esc_html_e( 'Unlock image, video & audio polls, surveys, CSV export, and more.', 'buddypress-polls' ); ?></p>
-	</div>
-	<div class="wbcom-admin-option-wrap wbcom-admin-option-wrap-view">
-		<div class="wbcom-wrapper-admin">
+	<div class="wbcom-welcome-main-wrapper bpolls-upgrade-wrap">
+		<div class="wbcom-welcome-head">
+			<p class="wbcom-welcome-description"><?php esc_html_e( 'WB Polls Lite includes everything you need to create engaging polls. Upgrade to Pro for media polls, surveys, CSV export, and more.', 'buddypress-polls' ); ?></p>
+		</div>
 
-			<!-- Comparison Header -->
-			<div class="wbcom-settings-section-wrap">
-				<div class="wbcom-settings-section-options-heading" style="flex: 1;">
-					<label><?php esc_html_e( 'Feature', 'buddypress-polls' ); ?></label>
+		<div class="wbcom-welcome-content">
+			<div class="wbcom-welcome-support-info">
+				<div class="wbcom-support-info-wrap">
+					<div class="wbcom-support-info-widgets">
+						<div class="wbcom-support-inner">
+							<h3><span class="dashicons dashicons-yes-alt" style="color:#46b450;"></span><?php esc_html_e( 'Included in Lite', 'buddypress-polls' ); ?></h3>
+							<ul>
+								<li><span class="dashicons dashicons-yes" style="color:#46b450;"></span><?php esc_html_e( 'Create & Manage Polls', 'buddypress-polls' ); ?></li>
+								<li><span class="dashicons dashicons-yes" style="color:#46b450;"></span><?php esc_html_e( 'Frontend Poll Dashboard', 'buddypress-polls' ); ?></li>
+								<li><span class="dashicons dashicons-yes" style="color:#46b450;"></span><?php esc_html_e( 'Guest Voting', 'buddypress-polls' ); ?></li>
+								<li><span class="dashicons dashicons-yes" style="color:#46b450;"></span><?php esc_html_e( 'Poll Scheduling', 'buddypress-polls' ); ?></li>
+								<li><span class="dashicons dashicons-yes" style="color:#46b450;"></span><?php esc_html_e( 'Multi-Select Options', 'buddypress-polls' ); ?></li>
+								<li><span class="dashicons dashicons-yes" style="color:#46b450;"></span><?php esc_html_e( 'AJAX Live Results', 'buddypress-polls' ); ?></li>
+								<li><span class="dashicons dashicons-yes" style="color:#46b450;"></span><?php esc_html_e( 'BuddyPress Activity Polls', 'buddypress-polls' ); ?></li>
+								<li><span class="dashicons dashicons-yes" style="color:#46b450;"></span><?php esc_html_e( 'BuddyPress Group Polls', 'buddypress-polls' ); ?></li>
+								<li><span class="dashicons dashicons-yes" style="color:#46b450;"></span><?php esc_html_e( 'Shortcodes & REST API', 'buddypress-polls' ); ?></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="wbcom-support-info-widgets">
+						<div class="wbcom-support-inner">
+							<h3><span class="dashicons dashicons-star-filled" style="color:#ffb900;"></span><?php esc_html_e( 'Only in Pro', 'buddypress-polls' ); ?></h3>
+							<ul>
+								<li><span class="dashicons dashicons-star-filled" style="color:#ffb900;"></span><?php esc_html_e( 'Image Polls', 'buddypress-polls' ); ?></li>
+								<li><span class="dashicons dashicons-star-filled" style="color:#ffb900;"></span><?php esc_html_e( 'Video Polls', 'buddypress-polls' ); ?></li>
+								<li><span class="dashicons dashicons-star-filled" style="color:#ffb900;"></span><?php esc_html_e( 'Audio Polls', 'buddypress-polls' ); ?></li>
+								<li><span class="dashicons dashicons-star-filled" style="color:#ffb900;"></span><?php esc_html_e( 'Surveys', 'buddypress-polls' ); ?></li>
+								<li><span class="dashicons dashicons-star-filled" style="color:#ffb900;"></span><?php esc_html_e( 'CSV Export', 'buddypress-polls' ); ?></li>
+								<li><span class="dashicons dashicons-star-filled" style="color:#ffb900;"></span><?php esc_html_e( 'WP-CLI Commands', 'buddypress-polls' ); ?></li>
+								<li><span class="dashicons dashicons-star-filled" style="color:#ffb900;"></span><?php esc_html_e( 'Sample Data Generator', 'buddypress-polls' ); ?></li>
+								<li><span class="dashicons dashicons-star-filled" style="color:#ffb900;"></span><?php esc_html_e( 'Priority Support', 'buddypress-polls' ); ?></li>
+							</ul>
+						</div>
+					</div>
 				</div>
-				<div class="wbcom-settings-section-options" style="display: flex; gap: 0; text-align: center;">
-					<span style="display: inline-block; width: 80px; font-weight: 600;"><?php esc_html_e( 'Lite', 'buddypress-polls' ); ?></span>
-					<span style="display: inline-block; width: 80px; font-weight: 600; color: #2271b1;"><?php esc_html_e( 'Pro', 'buddypress-polls' ); ?></span>
+
+				<div class="bpolls-cta">
+					<a href="<?php echo esc_url( 'https://wbcomdesigns.com/downloads/buddypress-polls/' ); ?>" class="button button-primary button-welcome-support" target="_blank" rel="noopener"><?php esc_html_e( 'Get WB Polls Pro', 'buddypress-polls' ); ?></a>
 				</div>
 			</div>
-
-			<!-- Feature Rows -->
-			<?php foreach ( $features as $feature ) : ?>
-			<div class="wbcom-settings-section-wrap">
-				<div class="wbcom-settings-section-options-heading" style="flex: 1;">
-					<label><?php echo esc_html( $feature['name'] ); ?></label>
-				</div>
-				<div class="wbcom-settings-section-options" style="display: flex; gap: 0; text-align: center;">
-					<span style="display: inline-block; width: 80px;">
-						<?php if ( $feature['lite'] ) : ?>
-							<span class="dashicons dashicons-yes-alt" style="color: #00a32a;"></span>
-						<?php else : ?>
-							<span class="dashicons dashicons-minus" style="color: #ccc;"></span>
-						<?php endif; ?>
-					</span>
-					<span style="display: inline-block; width: 80px;">
-						<span class="dashicons dashicons-yes-alt" style="color: #00a32a;"></span>
-					</span>
-				</div>
-			</div>
-			<?php endforeach; ?>
-
-			<!-- CTA -->
-			<div class="wbcom-settings-section-wrap" style="justify-content: center; padding: 25px 20px;">
-				<a href="<?php echo esc_url( $pro_url ); ?>" class="button button-primary button-hero" target="_blank" rel="noopener">
-					<?php esc_html_e( 'Get WB Polls Pro', 'buddypress-polls' ); ?>
-				</a>
-			</div>
-
 		</div>
 	</div>
 </div>

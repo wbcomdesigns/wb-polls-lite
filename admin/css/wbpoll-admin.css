@@ -1,7 +1,7 @@
 /* Tab icons */
 .nav-tab-wrapper ul li.welcome a.nav-tab:before { content: "\f102"; } /* dashicons-admin-home */
 .nav-tab-wrapper ul li.general a.nav-tab:before { content: "\f307"; } /* dashicons-groups */
-.nav-tab-wrapper ul li.wbpoll_setting a.nav-tab:before { content: "\f229"; } /* dashicons-chart-bar */
+.nav-tab-wrapper ul li.wbpoll_setting a.nav-tab:before { content: "\f108"; } /* dashicons-admin-settings */
 .nav-tab-wrapper ul li.support a.nav-tab:before { content: "\f125"; } /* dashicons-editor-help */
 .nav-tab-wrapper ul li.upgrade a.nav-tab:before { content: "\f174"; } /* dashicons-star-filled */
 .nav-tab-wrapper ul li.upgrade a.nav-tab { color: #d63638; }

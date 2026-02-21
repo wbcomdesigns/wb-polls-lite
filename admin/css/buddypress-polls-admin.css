@@ -18,7 +18,11 @@
 }
 
 .nav-tab-wrapper ul li.wbpoll_setting a.nav-tab:before {
-    content: "\f185";
+    content: "\f108";
+}
+
+.nav-tab-wrapper ul li.upgrade a.nav-tab:before {
+    content: "\f174";
 }
 
 .nav-tab-wrapper ul li.notifications a.nav-tab:before {
